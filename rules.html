@@ -1,0 +1,286 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="home">
+        <div class="header-area">
+            <!-- header-top -->
+            <div class="header-top primary-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <div class="header-contact-info">
+                                <div class="header-contact">
+                                    <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="header-social-icon-list">
+                                <ul>
+                                    <li>
+                                        <span id="time"></span>
+                                        <p>
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result = year+"/"+month+"/"+day+" ";
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span id="time1"></span>
+                                        <p>
+                                            <script>
+                                                function week_show(){
+                                                    var data1= new Date().getDay();
+                                                    var week;
+                                                    if(data1==0) week="星期日";
+                                                    if(data1==1) week="星期一";
+                                                    if(data1==2) week="星期二";
+                                                    if(data1==3) week="星期三";
+                                                    if(data1==4) week="星期四";
+                                                    if(data1==5) week="星期五";
+                                                    if(data1==6) week="星期六";
+                                                    document.getElementById("time1").innerHTML = week;
+                                                }
+                                                week_show();
+                                                setInterval("week_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="direction/direction_transmission.html">&bull; 网络架构与传输</a>
+                                                </li>
+                                                <li>
+                                                    <a href="direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="team/people_master.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+    <!-- rules start -->
+    <div class="advisors-area pt-25 pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="primary-color" style="text-align: center; margin-bottom: 40px; font-size: 36px;"><b>规章制度</b></h2>
+                    <div class="events-details-form faq-area-form mb-20 p-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-16">
+                                    <div class="events-form-title">
+        
+                                        <h4 style="text-align: left; margin-bottom: 15px;" class="fa fa-angle-right"> 实验室考勤管理办法</h4>
+                                        <p><b>第一条</b> 实验室考勤时间每天为上午9：00-11:30，下午14：30-17：00（周一至周五）。有课程和助教的学生剔除上课时间，以徐秘书处课表为准。值日同学需按照值日规定按时开关门。</p>
+                                        <p><b>第二条</b> 实验室学生请假/续假。因私请假者，需要经过导师和课题组负责老师批准，并在徐秘书《请假/续假记录本》上进行登记。</p>
+                                        <p><b>第三条</b> 迟到或早退1小时之内，计旷工1/2天；迟到或早退1-2小时，计旷工1天。一月内旷工超过3天者，取消下月科研补贴，一学期内旷工超过6天者取消下学期科研补贴。 一年内累计旷工超过10天者视为自动游离实验室科研组。</p>
+                                        <p><b>第四条</b> 值日同学在工作日和有讨论会的周末，早上在8：15之前到实验室。 除了周六有讨论会之外的节假日适当到8：30之前开门。</p>
+                                        <p><b>第五条</b>  工作时间禁止玩游戏、看电影、浏览与专业无关的网站或从事与本职工作无关的活动。</p>
+                                        
+                                        <h4 style="text-align: left; margin-top: 30px; margin-bottom: 15px;" class="fa fa-angle-right"> 学生科研考核与科研补贴规定</h4>
+                                        <p><b>第一条</b> 科研补贴分为“基本补贴”、“浮动补贴”和“科研奖励”三部分，其中“基本补贴”是实验室部分资助由研究生院发放的助研费，“浮动补贴”是实验室每月发放的助研费，“科研奖励”是根据项目和发表的论文情况所给与的奖励。</p>
+                                        <p><b>第二条</b>  “基本补贴”和“浮动补贴”与学生的个人考勤和每学期的科研考核挂钩，个人考勤见《考勤管理条例》；科研考核在每学期末进行，首先由学生递交学期科研总结报告，报告内容包括学术研究、参加项目申请情况和完成情况及其他相关科研活动，由考核小组结合周报及实际情况作出评定，考核优秀者发给“基本补贴”和“浮动补贴”，合格者发给“基本补贴(a档或c档)”，不合格者视具体情况降低“基本补贴”档次和取消“基本补贴”。</p>
+                                        <p><b>第三条</b> “科研奖励”分论文奖励和项目奖励，论文奖励根据当年发表的论文档次和影响，由实验室所有老师共同商议出一等奖论文1名、二等奖论文2名、三等奖论文5名（各奖项可以空缺），给予相应的论文奖励。项目奖励根据项目强度、资助情况、完成情况和个人在项目中的作用由项目负责老师提出分配方案。</p>
+                                        <p><b>第四条</b> 对于连续2次考核不合格者给予警告批评；对于累计3次考核不合格者游离出科研组，且至少推迟半年时间毕业答辩。</p>
+                                        
+                                        <h4 style="text-align: left; margin-top: 30px; margin-bottom: 15px;" class="fa fa-angle-right"> 实验室考勤管理办法</h4>
+                                        <p><b>第一条</b> 关于学术论文投稿、发表的相关要求</p>
+                                        <p style="margin-top: -15px;">1. 本实验室实行“登记签名投稿制度”， 对于论文投稿，原始稿件须首先以word或者pdf文档向所有署名老师提交审核、修改，论文作者综合合作者意见后再次修改，定稿后经所有合作者亲笔签名确认，最后由分管老师负责投稿或授权作者自行投稿。同时电子版本一并提交。论文被据后及时向分管老师进行备注说明。</p>
+                                        <p style="margin-top: -15px;">2. 为了便于学生毕业后在投论文和待发表论文的处理，学生在本科生阶段、研究生从研二（不包括直博或者硕博）下学期起、博士生从博二下学期起所有投稿论文将通信作者写为自己导师。</p>
+                                        <p style="margin-top: -15px;">3. 论文作者署名及顺序需经过导师的同意和确认，不得随意更改。</p>
+                                        <p style="margin-top: -15px;">4. 每篇论文，均须按下述形式标注：<br>(a). 中文论文标注：中国科学院无线光电通信重点实验室，中国科学技术大学信息科学技术学院，230027，安徽省合肥市金寨路96号 <br>(b). 英文论文标注：Key Laboratory of Wireless-Optical Communications, Chinese Academy of Sciences, School of Information Science and Technology, University of Science and Technology of China, No. 96 Jinzhai Road, Hefei, Anhui Province, 230026, P. R. China</p>
+
+                                        <p><b>第二条</b> 学术论文发表版面费及相关费用资助规定</p>
+                                        <p style="margin-top: -15px;">1. 对于博士生，实验室认可的国内期刊包括《计算机学报》、《软件学报》、《计算机研究与发展》、《电子学报》、《通信学报》和相关学科等同学术水平的学报；对于硕士生，除了以上期刊之外，还包括《电子信息学报》。</p>
+                                        <p style="margin-top: -15px;">2. 实验室将每年年末将本年度发表论文和录用论文整理为电子文档并装订成册，免费发放给实验室师生。年末实验室所有老师共同商议出一等奖论文1名、二等奖论文2名、三等奖论文5名，由论文档次和影响确定，各奖项可以空缺，给予相应的论文奖励。</p>
+
+                                        <p><b>第三条</b> 严禁下列违反学术道德的行为</p>
+                                        <p style="margin-top: -15px;">1. 抄袭、剽窃、侵占他人学术成果(凡引用他人成果、数据等，均应明确说明并详细列出有关文献的名称、所有作者、出版机构、年份等)；</p>
+                                        <p style="margin-top: -15px;">2. 请他人代写文章或代他人写文章；</p>
+                                        <p style="margin-top: -15px;">3. 篡改、伪造、杜撰研究数据；</p>
+                                        <p style="margin-top: -15px;">4. 一稿多投或简单重复投稿。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rules end -->
+    
+    
+    <!-- footer start -->
+    <footer id="Contact">
+        <div class="footer-area primary-bg pt-20">
+            <div class="container">
+                <div class="footer-top">
+                    <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；  kpxue AT ustc.edu.cn(薛)</p>
+                    <p style="text-align: center; margin-bottom: 5px;"> Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/main.js"></script>
+</body>
+
+</html>

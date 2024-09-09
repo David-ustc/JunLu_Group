@@ -1,0 +1,941 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/animate.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/themify-icons.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/slick.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/meanmenu.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/default.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/style.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/responsive.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="home">
+        <div class="header-area">
+            <!-- header-top -->
+            <div class="header-top primary-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <div class="header-contact-info">
+                                <div class="header-contact">
+                                    <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="header-social-icon-list">
+                                <ul>
+                                    <li>
+                                        <span id="time"></span>
+                                        <p>
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result = year+"/"+month+"/"+day+" ";
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span id="time1"></span>
+                                        <p>
+                                            <script>
+                                                function week_show(){
+                                                    var data1= new Date().getDay();
+                                                    var week;
+                                                    if(data1==0) week="星期日";
+                                                    if(data1==1) week="星期一";
+                                                    if(data1==2) week="星期二";
+                                                    if(data1==3) week="星期三";
+                                                    if(data1==4) week="星期四";
+                                                    if(data1==5) week="星期五";
+                                                    if(data1==6) week="星期六";
+                                                    document.getElementById("time1").innerHTML = week;
+                                                }
+                                                week_show();
+                                                setInterval("week_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://lzhstone95.github.io/infonet/index.html">
+                                    <img src="https://lzhstone95.github.io/infonet/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a><b>研究方向</b><span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_transmission.html">&bull; 网络架构与传输</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/books_patents.html">&bull; <b>专著专利</b></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+    <!-- rules start -->
+    <div class="advisors-area pt-25 pb-20">
+        <div class="container">
+            <div class="section-title mb-50 text-center">
+                <div class="section-title-heading mb-20">
+                    <h1 class="primary-color">研究动态</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <div class="events-details-form faq-area-form p-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="events-form-title">
+
+                                            <p>&bull; 2024年9月，欢迎新同学（郑海军、蔡忠祥、高越、张子和、安佳文、刘浩平、胡东方、李飏、杨宇祺、杨兵、冯伟、商坤杰、任鹏飞、春皓源、王云书、李瑞清、尹航、胡振华）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年8月，实验室博士研究生黄轩博同学赴美参加第33届安全研讨会（USENIX Security Symposium 2024）并对实验室录用的两篇论文做口头汇报！<a href="https://lzhstone95.github.io/infonet/album/2024-08-20.html">Details</a></p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年8月，实验室两篇论文 “SLP: A Secure and Lightweight Scheme against Content Poisoning Attacks in Named Data Networking Based on Probing”和“Adaptive Multi-source Multi-path Congestion Control for Named Data Networking” 被CCF A类、计算机网络领域顶刊IEEE/ACM Transactions on Networking录用。</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年8月，实验室李忠辉博士后研究员的国家自然基金青年项目“面向未来的大规模量子信息网络中端到端纠缠传递关键技术研究”获得国家自然科学基金委员会的资助批准！</p><hr class="hr-shadow">
+                                            
+                                            <p>&bull; 2024年8月，祝贺实验室参加第十七届全国大学生信息安全竞赛-作品赛的几组本科生团队斩获多项荣誉！<a href="https://lzhstone95.github.io/infonet/album/2024-08-14.html">Details</a></p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年8月，实验室论文 “S<sup>3</sup>Voting: A Blockchain Sharding Based E-voting Approach with Security and Scalability” 被信息安全领域顶刊IEEE Transactions on Dependable and Secure Computing最终录用！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年8月，实验室论文 “Purification Scheduling Control for Throughput Maximization in Quantum Networks” 被中科院1区Nature系列期刊Communications Physics录用！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年6月，实验室论文 “Joint Distribution Analysis for Set-Valued Data withLocal Differential Privacy” 被CCF A类期刊、网络安全顶刊IEEE Transactions on Information Forensics and Security录用！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年6月，实验室论文 “EtherCloak: Enabling Multi-Level and Customized Privacy on Account-Model Blockchains” 被CCF A类期刊EEE  Transactions on Dependable and Secure Computing录用！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年6月，实验室两篇论文 “You Can Obfuscate, but You Cannot Hide: CrossPoint Attacks against Network Topology Obfuscation” 和 “FakeBehalf: Imperceptible Email Spoofing Attacks against the Delegation Mechanism in Email Systems” 被第33届CCF A类、网络与信息安全领域国际四大顶级学术会议之一的Usenix Security 2024录用！</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年5月，实验室论文 “A Secure and Efficient Blockchain Sharding Scheme via Hybrid Consensus and Dynamic Management”被CCF A类、网络安全领域顶刊 IEEE Transactions on Information Forensics and Security录用。</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2024年5月，实验室论文 “CrossChannel: Efficient and Scalable Cross-Chain Transactions Through Cross-and-Off-Blockchain Micropayment Channel” 被CCF A类、网络安全领域顶刊IEEE Transactions on Dependable and Secure Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年5月，恭喜实验室博士研究生杨佳宇、庄瑞，硕士研究生唐进、汪子凯、薛睿、范茂、柳易等同学顺利通过学位答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年5月，实验室论文  “Efficient Routing Design Based on Entanglement Flow Loss Effect in Quantum Networks” 被 2024 International Conference on Quantum Communications, Networking, and Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年4月，实验室论文 “LSCC: Link-Segmented Congestion Control for RDMA in Cross-Datacenter Networks”被CCF B 类学术会议IEEE IWQoS 24录用录用。</p><hr class="hr-shadow">
+                            
+                                             <p>&bull; 2024年3月，实验室论文 “Cooperative Caching in Satellite-Terrestrial Integrated Networks: A Region Features Aware Approach” 被权威期刊IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年3月，实验室论文 “Opportunistic Content-aware Routing in Satellite-Terrestrial Integrated Networks” 被CCF A类期刊IEEE Transactions on Mobile Computing 录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年12月，实验室论文 “REDP: Reliable Entanglement Distribution Protocol Design for Large-scale Quantum Networks” 被网络通信顶刊、CCF A类期刊IEEE Journal on Seclected Areas in Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年12月，实验室论文 “Security-Enhanced WireGuard Protocol Design using Quantum Key Distribution”被 the International Conference on Computing, Networking and Communications (ICNC 2024)录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年12月，实验室李健副研究员及两名博士生朱滨和罗昕怡参加2023 IEEE GLOBECOM国际学术会议。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年12月，实验室论文“RateMP：Optimizing Bandwidth Utilization with High Burst Tolerance in Data Center Networks”被CCF A类学术会议INFOCOM 2024录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年11月，祝贺朱鹏宇同学参与的项目“智慧校园夏的会议记录检索与自动分类”获得中国科大“余庆杯”校园软件设计竞赛金奖，丁雷同学负责、张烨同学参与的项目“区块链电子证书管理平台”获得银奖。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年11月，实验室论文“Volume-Hiding Range Searchable Symmetric Encryption for Large-Scale Datasets”被CCF-A类期刊IEEE Transactions on Dependable and Secure Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年11月，实验室于巢湖一露营基地组织了本年度秋季团建活动。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年10月，祝贺实验室成员陈鲁同获得研究生国家奖学金，罗昕怡获得安恒奖学金，肖子睿等获得华为奖学金等专项奖学金。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年10月，祝贺实验室肖子睿同学在2023年安徽省高校羽毛球单项交流赛中勇夺男子单打冠军!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年9月，实验室论文“FMPTCP：Achieving High Bandwidth Utilization and Low Latency in Data Center Networks”被IEEE Transactions on Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年9月，实验室论文“A Connectionless Entanglement Distribution Protocol Design in Quantum Networks”被IEEE Network量子网络Special Issue录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年9月，实验室论文“Differentially Private Federated Learning with an Adaptive Noise Mechanism"被IEEE Transactions on Information Forensics &amp Security录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年8月，实验室韩江萍博士后研究员作为负责人的“面向数据中心动态混合流量的网络传输优化关键技术研究”项目获得了国家自然科学基金青年基金项目支持。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年8月，实验室论文“Achieving Privacy-Preserving Outsourced SVM Training with Non-linear Kernel”和“AcCrowd: Blockchain-based Crowdsourcing with Worker Anonymity and Payment Correctness”被IEEE Globecom2023录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年7月，实验室论文“Enabling In-Network Caching in Traditional IP Networks: Selective Router Upgrades and Cooperative Cache Strategies”被Transactions on Network Science and Engineering录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年7月，实验室论文“An Efficient Scheduling Scheme of Swapping and Purification Operations for End-to-End Entanglement Distribution in Quantum Networks”被IEEE Transactions on Network Science and Engineering录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年7月，实验室在中国科大高新校区信智楼举行陆军院士工作室年度总结大会。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年7月，实验室论文“Efficient Remote Entanglement Distribution in Quantum Networks: A Segment-based Method”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年7月，实验室论文“Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions”被通信网络领域顶刊IEEE Communications Surveys &amp Tutorials录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年6月，实验室论文“Q-DDCA: Decentralized Dynamic Congestion Avoid Routing in Large-Scale Quantum Networks”被IEEE Transactions on Networking录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年5月，祝贺实验室硕士生王明君、张津源、徐镒熠同学顺利通过硕士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年5月，祝贺实验室博士生幸一滔、李忠辉、李润洲同学顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年5月，实验室论文“Swapping-based Entanglement Routing Design for Congestion Mitigation in Quantum Networks”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年4月，实验室论文“PLR: An In-Network Proactive Loss Recovery Scheme for Named Data Networking”、“Early Marking for Controllable Maximum Queue Length in Data Center Networks”被IEEE ICCCN 2023录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年4月，实验室研究生幸一滔作为MPTCP v0.96版本代码的贡献者，所提交的代码被MPTCP官方采纳并感谢。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年4月，实验室论文“SeRedact: Secure and Efficient Redactable Blockchain with Verifiable Modification”、“L2BM: Switch Buffer Management for Hybrid Traffic in Data Center Networks”被IEEE ICDCS 2023录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年4月，实验室保研本科生吴佳琦获得郭沫若奖学金。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年3月，实验室论文“RPBV: Reputation-Based Probabilistic Batch Verification Scheme for Named Data Networking”被CCF B类国际会议IEEE IWQoS 2023录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年3月，实验室论文“Make Rental Reliable: Blockchain-based Network Slice Management Framework with SLA Guarantee Series Mobile Communications and Networks”被IEEE Communications Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年2月，实验室论文“A Segment-based Multipath Distribution Method in Partially-Trusted Relay Quantum Networks”被IEEE Communications Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年3月，实验室论文“An Online Learning Assisted Packet Scheduler for MPTCP in Mobile Networks” 被CCF A类期刊IEEE Transactions on Networking录用。</p><hr class="hr-shadow">
+
+                                            <p>&bull; 2023年2月，实验室论文“EdAR: An Experience-driven Multipath Scheduler for Seamless Handoff in Mobile Networks”被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年1月，实验室论文“TCCC: A Throughput Consistency Congestion Control Algorithm for MPTCP in Mixed Transmission of Long and Short Flows”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2023年1月，实验室论文“SimQN: a Network-layer Simulator for the Quantum Network Investigation”被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年12月，实验室有3篇论文被国际学术会议WCNC 2023录用，分别为“AQM-based Buffer Delay Guarantee for Congestion Control in 5G Networks”、“MDUcast: Multi-Device Uplink Uncoded Video Transmission in Internet of Video Things”、“Secure mmWave MIMO Communication against Signal Leakage When Meeting Illegal Reconfigurable Intelligent Surface”。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年12月，实验室在高新校区体育馆举行第二届“决胜杯”羽毛球比赛。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年11月，实验室论文"Blacktooth: Breaking through the Defense of Bluetooth in Silence”获得CCF A类国际顶级会议ACM CCS 2022 Honorable Mention Award!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年10月，祝贺实验室成员庄瑞、陈鲁同获得安恒奖学金、杨佳宇获得国睿奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年10月，祝贺实验室成员幸一滔获得博士研究生国家奖学金，章放宇和艾明瑞获得硕士研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年10月，实验室论文"When User-Centric Network Meets Mobile Edge Computing: Challenges and Optimization”被IEEE Communications Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，实验室论文"IMRecoNet: Learn to detect in index modulation aided MIMO systems with complex valued neural networks”被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，实验室已发表论文"Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike Model”被遴选为中国科协第七届优秀科技论文。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，实验室论文"A Stream-Aware MPQUIC Scheduler for HTTP Traffic in Mobile Networks”被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，实验室论文"Achieving Flexible and Lightweight Multipath Congestion Control through Online Learning”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，实验室论文"A Heuristic Remote Entanglement Distribution Algorithm on Memory-Limited Quantum Paths”被IEEE Transactions on Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年9月，欢迎新同学（蒋承成、谭铮、陈浩然、郭宇韬、丁坤鹏、张淳一、彭子为、王文涛、肖子睿、江千童、徐卓、谢沅东、汪浩东、郑鹏、马锦瑞）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年8月，实验室论文"Fidelity-Guaranteed Entanglement Routing in Quantum Networks”被IEEE Transactions on Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年8月，实验室论文"Blacktooth: Breaking through the Defense of Bluetooth in Silence”被国际顶级会议ACM CCS 2022录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 22022年8月，实验室筹备著作"区块链技术及其在信息网络中的应用”收到国家科学技术学术著作出版基金资助。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年8月，祝贺实验室成员张淳一和郭宇涛，获得2022年全国大学生信息安全竞赛-信息安全作品赛一等奖，获奖作品为“流行病调查场景中的多用户外包加密数据库”。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年8月，实验室六篇论文被IEEE GLOBECOM2022录用，分别为"Joint Grouping and Offloading in NOMA-Assisted Multi-MEC IoVT Systems ","WeVoting: Blockchain-based Weighted E-Voting with Voter Anonymity and Usability","An Incentive-Based Differential Privacy-Preserving Truth Discovery over Streaming Data","Content-Aware Routing based on Cached Content Prediction in Satellite Networks"，"Privacy-preserving Truth Discovery with Outlier Detection in Mobile Crowdsensing Systems"，"Forward Private Multi-Client Searchable Encryption with Efficient Access Control in Cloud Storage"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年7月，实验室论文"IEACC: An Intelligent Edge-Aided Congestion Control Scheme for Named Data Networking  with Deep Reinforcement Learning”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年7月，实验室论文"An Asynchronous Entanglement Distribution Protocol for Quantum Networks”被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年6月，实验室全体毕业生合影留恋，本学期共有7名硕士生和3名博士生顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年5月，实验室论文"Wireless Communication in the Presence of Illegal Reconfigurable Intelligent Surface: Signal Leakage and Interference Attack”被IEEE Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年5月，实验室论文"Joint Power Control and Passive Beamforming in Reconfigurable Intelligent Surface Assisted User-Centric Networks”被IEEE Transactions on Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年5月，实验室论文"A Connection-Oriented Entanglement Distribution Design in Quantum Networks”被IEEE Transactions on Quantum Engineering录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年4月，实验室在高新校区体育馆举行第一届“决胜杯”羽毛球比赛。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年3月，实验室两篇论文被IEEE International Conference on High Performance Switching and Routing (HPSR) 2022录用，分别为"A Dynamic Flow Table Management Method Based on Real-Time Traffic Monitoring"，"LLDM: Low-Latency DoS Attack Detection and Mitigation in SDN"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年3月，实验室论文"Cooperative Robust Video Multicast in Integrated Terrestrial-Satellite Networks”被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年3月，实验室论文"Horizontal and Vertical Collaboration for VR Delivery in MEC-Enabled Small-Cell Networks"被IEEE Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年2月，实验室论文"Resource Fragmentation-Aware Embedding in Dynamic Network Virtualization Environments”被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年2月，实验室论文"SCD2: Secure Content Delivery and Deduplication with Multiple Content Providers in lnformation Centric Networking"被CCF A类期刊IEEE/ACM Transactions on Networking录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年1月，实验室论文"A Cluster-based Networking Approach for Large-scale and Wide-area Quantum Key Agreement"被Quantum Information Processing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年1月，实验室论文"A Distributed Authentication Scheme Based on Smart Contract for Roaming Service in Mobile Vehicular Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年1月，实验室论文"Connection-oriented and Connectionless Remote Entanglement Distribution Strategies in Quantum Networks"被IEEE Network Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2022年1月，实验室2篇论文被IEEE ICC2022录用，分别为"MUABR: Multi-user Adaptive Bitrate Algorithm based Multi-agent Deep Reinforcement Learning”,"POF-Based Dynamic Control in Wireless Tactical Networks"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年3月，2021年12月实验室论文"A Blockchain Based User Subscription Data Management and Access Control Scheme in Mobile Communication Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年11月，祝贺实验室罗昕怡 / 陈鲁同 / 朱滨 / 孙文拓 / 徐卓等五名同学组成的安产链团队所提交的区块链项目，经过初赛和决赛的激烈争夺，取得微众银行金融科技高校技术大赛第二名的好成绩，获得奖金8万元！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年10月，祝贺实验室郭凤谦、顾卓佳获得博士研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年10月，祝贺王亚正、赵丹、罗昕怡获得硕士研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年10月16日，祝贺实验室博士生韩江萍同学顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，祝贺实验室李健博士获得中科大墨子杰出青年！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，实验室论文"Reliability Enhancement for VR Delivery in Mobile-Edge Empowered Dual-Connectivity Sub-6 GHz and mmWave HetNets"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，祝贺实验室博士生韩江萍获得中科院院长奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，实验室论文"Secure Transmission by Leveraging Multiple Intelligent Reflecting Surfaces in MISO Systems"被IEEE Transactions on Mobile Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，实验室论文"Service Prioritization in Information Centric Networking with Heterogenous Content Providers"被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年9月，欢迎新同学（揭习文、陈光磊、陈可欣、柳易、黄雅暄、薛睿、李美琪、黄梓旭、陈雨新、唐进、汪子凯、赵旌程、杨锦江、吴昌、韩仁孝、崇保林、孔姹妮、刘书艺、杨馨予、陈雨昂、覃朗天、黄勇胜）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年8月，实验室六篇论文被IEEE GLOBECOM2021录用，分别为"Low Priority Congestion Control for Multipath TCP"，"Privacy-Preserving Truth Discovery for Sparse Data in Mobile Crowdsensing Systems"，"A Fog-Aided Privacy-Preserving Truth Discovery Framework over Crowdsensed Data Streams"，"Traffic Prediction based VNF Migration with Temporal Convolutional Network"，"Flow-Level Rerouting in RDMA-Enabled Dragonfly Networks"和"Flow-level Adaptive Routing Scheme for RDMA enabled Dragonfly Network"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"Build a Large-scale and Wide-area Quantum Internet Based on an OSI-alike Model"被China Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"Joint Power and User Grouping Optimization in Cell-Free Massive MIMO Systems"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"Resource Allocation for Uplink NOMA-based D2D Communication in Energy Harvesting Scenario: A Two-stage Game Approach"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"A Cooperative D2D Content Sharing Scheme Using NOMA under Social Ties"被IEEE Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"Blockchain-based Secure Data Aggregation and Distributed Power Dispatching for Microgrids"被IEEE Transactions on Smart Grid录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"An Efficient Data Aggregation Scheme with Local Differential Privacy in Smart Grid"被Digital Communications and Networks录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年7月，实验室论文"FASE: Fine-grained Accountable and Space-Efficient Access Control for Multimedia Content with In-network Caching"被EEE Trans. Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年6月，实验室全体毕业生合影留恋，本学期共有12名硕士生和1名博士生顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年6月，实验室论文"Enabling Cross-chain Transactions: A Decentralized Cryptocurrency Exchange Protocol"被IEEE Transactions on Information Forensics and Security录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年6月，实验室论文"Association and Caching in Relay-Assisted mmWave Networks: From A Stochastic Geometry Perspective"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"Leveraging Coupled BBR and Adaptive Packet Scheduling to Boost MPTCP"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"A Low-Latency MPTCP Scheduler for Live Video Streaming in Mobile Networks"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"wCompound: Enhancing Performance of Multipath Transmission in High-speed and Long Distance Networks"被IEEE IWQoS 2021录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"QoS-aware User Grouping Strategy for Downlink Multi-Cell NOMA Systems"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"NOMA Assisted Multi-MEC Offloading for IoVT Networks"被IEEE Wireless Communications Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2021年5月，实验室论文"Channel Estimation in IRS-Enhanced mmWave System with Super-Resolution Network"被IEEE Communication Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年12月，实验室论文"QoS-Driven Video Uplinking in NOMA-Based IoT"、"User-Centric Cooperative MEC Service Offloading"被IEEE Wireless Communications and Networking Conference（WCNC）录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年12月，实验室论文"BBR-based Congestion Control and Packet Scheduling for Bottleneck Fairness Considered Multipath TCP in Heterogeneous Wireless Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年12月，实验室论文"An Efficient Data Aggregation Scheme with Local Differential Privacy in Smart Grid"在MSN 2020获得The Best Track Paper奖项。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年12月，实验室论文"LensCast: Robust Wireless Video Transmission over mmWave MIMO with Lens Antenna Array"被IEEE Transactions on Multimedia录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年11月3日，祝贺实验室博士生李健和魏文佳同学顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                          <p>&bull; 2020年10月，祝贺实验室成员桂永强同学获得博士生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年10月，祝贺实验室成员李润洲、朱滨和盖娜分别获得研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年10月，实验室论文"Distortion-Aware Cross-Layer Power Allocation for Video Transmission over Multi-User NOMA System"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年9月，欢迎新同学（柳枫、黄轩博、李锭轩、陈鲁同、罗昕怡、陆诚迪、章放宇、艾明瑞、孙文拓、史伟业、徐镒熠、陆瑶、袁皓月、卢乔嘉、李博、李佳森、王明君）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年8月，实验室四篇论文被IEEE GLOBECOM2020录用，分别为"SSMP: Server Selection for Multipath TCP in CDN Environments", "Edge Computing Aided Congestion Control using Neuro-Dynamic Programming in NDN", "Joint Passive Beamforming and User Association Optimization for IRS-assisted mmWave Systems", "Energy Efficiency Optimization in IRS-Enhanced mmWave Systems with Lens Antenna Array"。</p><hr class="hr-shadow">	
+                            
+                                            <p>&bull; 2020年7月，实验室论文"Transparent Multipath: Using Double MPTCP Proxies to Enhance Transport Performance for Traditional TCP"被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年7月，实验室论文"A User-Centric Handover Scheme for Ultra-Dense LEO Satellite Networks"被IEEE Wireless Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年6月29日，实验室全体毕业生合影留恋，本学期共有8名硕士生和2名博士生顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年6月，实验室论文"On Throughput Optimization and Bound Analysis in Cache-Enabled Fiber-Wireless Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年5月，实验室已毕业洪佳楠博士荣获2019年度ACM SIGSAC China优博奖（Doctoral Dissertation Award）。</p><hr class="hr-shadow">
+                                            <p>&bull; 2020年5月，实验室论文"Robust Video Broadcast for Users with Heterogeneous Resolution in Mobile Networks"被IEEE Transactions on Mobile Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年4月，实验室论文"Energy and Delay Optimization for Cache-Enabled Dense Small Cell Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年4月，实验室论文"Efficient and Secure Attribute-based Access Control with Identical Sub-Policies Frequently Used in Cloud Storage"被IEEE Transactions on Dependable and Secure Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年3月，实验室论文"An Identity Management and Authentication Scheme Based on Redactable Blockchain for Mobile Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年2月，实验室论文"FALCON: A Fourier Transform Based Approach for Fast and Secure Convolutional Neural Network Predictions"被IEEE/CVF CVPR 2020录用为Oral Presentation，本届大会oral录用率为5%（=335/6656）。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年2月，实验室论文"A Lightweight and Secure Group Key Based Handover Authentication Protocol for the Software-defined Space Information Network"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                                            
+                                            <p>&bull; 2020年2月，实验室论文"NOMA-based Scalable Video Multicast in Mobile Networks with Statistical Channels"被IEEE Transactions on Mobile Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月，实验室论文"Two-phase Virtual Network Function Selection and Chaining Algorithm based on Deep Learning in SDN/NFV-enabled Networks"被IEEE Journal on Selected Areas in Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月，实验室四篇论文被IEEE WCNC2020录用，分别为"IMNet: A Learning Based Detector for Index Modulation Aided MIMO-OFDM Systems", "MSDF: A Deep Reinforcement Learning Framework for Service Function Chain Migration", "Throughput Analysis in Cache-enabled Millimeter Wave HetNets with Access and Backhaul Integration", "Joint Quality Selection and Caching for SVC Video Services in Heterogeneous Networks"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月，实验室论文"Energy-Efficient Resource Allocation for High-Rate Underlay D2D Communications with Statistical CSI: A One-to-Many Strategy"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月，实验室论文"MPTCP Meets Big Data: Customizing Transmission Strategy for Various Data Flows"被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月，实验室论文"Shared Bottleneck based Congestion Control and Packet Scheduling for Multipath TCP"被IEEE/ACM Transactions on Networking录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2020年1月12日，实验室举行2019年度年终总结大会。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年12月，实验室论文"STNDN: Link Aware Segmented Transmission for Named Data Networking"获得IEEE HotICN2019最佳论文奖。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年12月，实验室论文"An Efficient and Robust Data Aggregation Scheme without A Trusted Authority for Smart Grid"被IEEE Internet of Things Journal录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年12月，实验室论文"Energy Efficiency and Traffic Offloading Optimization in Integrated Satellite/Terrestrial Radio Access Networks"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年12月，实验室论文"Optimal VNF Placement via Deep Reinforcement Learning in SDN/NFV-Enabled Networks"被CCF A类期刊、通信网络领域顶刊IEEE Journal on Selected Areas in Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年11月，祝贺实验室成员桂永强，章明，郭凤谦同学获得苏州工业园奖学金，贺培轩同学获得孟宁奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年10月，实验室论文"QoE-Driven Optimization for Video Services in Cache-Enabled Software-Defined HetNets"获得IEEE WCSP2019 best paper award。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年10月，祝贺实验室成员李健同学和许婕同学分别获得博士生国家奖学金和研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年9月，欢迎新同学（贾其东、袁少贤、朱滨、杨佳宇、赵丹、张原、王亚正、庄瑞、马朋飞、刘梦杰、范茂、王航、盛家华、韩港薇、张宸武、吴雨烟）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年8月，实验室论文"Availability Aware VNF Deployment in Datacenter Through Shared Redundancy and Multi-tenancy"被IEEE Transactions on Network and Service Management录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年8月，实验室负责的国家自然基金面上项目“信息中心网络中的访问控制和内容有效性保护关键技术研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年8月，实验室论文"SecGrid: A Secure and Efficient SGX-enabled Smart Grid System with Rich Functionalities"被 IEEE Transactions on Information Forensics and Security录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年8月，实验室论文"Compressed Pseudo-analog Transmission System for Remote Sensing Images over Bandwidth-Constrained Wireless Channels"被IEEE Transactions on Circuits and Systems for Video Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年7月，实验室论文"Delay and Power Tradeoff with Consideration of Caching Capabilities in Dense Wireless Networks"被IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年7月，实验室两篇论文被IEEE GLOBECOM2019录用，分别为"Fastconv: Fast Learning-based Adaptive Bitrate Algorithm for Video Streaming", "TSLS: Time Sensitive, Lightweight and Secure Access Control for Information Centric Networking"。</p><hr class="hr-shadow">	
+                            
+                                            <p>&bull; 2019年6月，实验室薛开平副教授当选英国工程技术学会会士(IET Fellow)。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年6月，实验室论文"QoE-Driven Multi-User Video Transmission over SM-NOMA Integrated Systems"被IEEE Journal on Selected Areas in Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年6月，实验室Poster"Measurement and Redesign of BBR-based MPTCP"被ACM SIGCOMM 2019录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年6月，实验室论文"Healthchain:A Blockchain-based Privacy Preserving Scheme for Large-scale Health Data"被IEEE Internet of Things Journal录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年6月5日，实验室全体毕业生合影留恋，本学期共有6名硕士生和1名博士生顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年5月，实验室陈怡欣、刘昀、毛恒熙、郭凤谦、周靖淞、李润洲同学赴上海参加IEEE ICC2019 会议，实验室有6篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年5月，实验室姜斅达、郭凤谦同学赴法国巴黎参加IEEE INFOCOM2019 会议，实验室有2篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年4月，实验室论文"An ICN/SDN-based Network Architecture and Efficient Content Retrieval for Future Satellite-Terrestrial Integrated Networks"被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年4月，实验室论文"A Secure, Efficient and Accountable Edge-based Access Control Framework for Information Centric Networks"被 CCF A类期刊IEEE/ACM Transactions on Networking录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年4月，实验室论文"Temporal Netgrid Model based Dynamic Routing in Large-Scale Small Satellite Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年3月，实验室论文"An Attribute-based Controlled Collaborative Access Control Scheme for Public Cloud Storage"被IEEE Transactions on Information Forensics and Security录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年3月，实验室论文"A Secure and Efficient Access and Handover Authentication Protocol for Internet of Things in Space Information Networks"被IEEE Internet of Things Journal录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年3月，实验室论文"Virtual Network Function Placement and Resource Optimization in NFV and Edge Computing enabled Networks"被Computer Networks (Elsevier)录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年3月，实验室论文"Attribute-based Accountable Access Control for Multimedia Content with In-network Caching"被IEEE International Conference on Multimedia and Expo(ICME)2019录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年2月，实验室六篇论文被IEEE ICC录用，分别为“Joint User Association, Grouping and Power Allocation in Uplink NOMA Systems with QoS Constraints”，“Energy Harvesting-based D2D Relaying Achieving Energy Cooperation Underlaying Cellular Networks”，“Multi-Task Deep Learning based Dynamic Service Function Chains Routing in SDN/NFV-enabled Networks”，“Cost-efficient Virtual Network Function Placement and Traffic Steering”，“DETPro: A High-efficiency and Low-latency System against DDoS Attacks in SDN Based on Decision Tree”，“RoemNet: Robust Meta Learning based Channel Estimation in OFDM Systems ”。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年1月22日，实验室举行2018年度年终总结大会。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2019年1月，实验室论文Compressed Robust Transmission for Remote Sensing Services in Space Information Networks被IEEE Wireless Communication Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年12月23日，实验室硕士周靖淞代表信息学院参加科星杯篮球赛决赛，并率队战胜化学学院拿下冠军！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年11月，实验室2篇论文被IEEE INFOCOM2019录用，分别为："Interference-aware User Grouping Strategy in NOMA Systems with QoS Constraints","Receiver-driven Video Multicast over NOMA Systems in Heterogeneous Environments"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年11月，祝贺实验室成员姜斅达同学获得博士生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年11月，实验室论文"Efficiently Embedding Service Function Chains with Dynamic Virtual Network Function Placement in Geo-distributed Cloud System"被IEEE Transactions on Parallel and Distributed Systems (TPDS)录用。</p><hr class="hr-shadow">
+                                                
+                                            <p>&bull; 2018年10月，实验室两篇论文被2018 IEEE Conference on Standards for Communications and Networking(CSCN)录用，分别为"Virtual Network Function Placement with Function Decomposition for Virtual Network Slice","Availability Aware VNF Deployment in Datacenter Through Shared Redundancy"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年10月，实验室论文"Low-Latency Authentication against Satellite Compromising for Space Information Network"在IEEE MASS 2018会议上获得best paper runner up award。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年10月，祝贺实验室成员杨青友同学获得研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年9月，实验室论文"Shared Bottleneck Detection based on Congestion Interval Variance Measurement"被IEEE Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年9月，实验室论文"PPSO: A Privacy-Preserving Service Outsourcing Scheme for Real-Time Pricing Demand Response in Smart Grid"被IEEE Internet of Things Journal录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年9月，欢迎新同学（夏秋冬、刘进学、盖娜、邹晨凯、李润洲、凌华泽、孟建文、孙海舟、田航宇、陈若云、周靖淞、幸一滔、李忠辉、杨特、孟令辉）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年8月，祝贺实验室博士生洪佳楠获得中科院院长奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年8月，祝贺实验室李少华同学获得第三届中国互联网发展基金会网络安全专项基金网络安全奖-研究生奖学金（5万元）！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年7月，实验室三篇论文被IEEE GLOBECOM录用，分别为"Learning Deterministic Policy with Target for Power Control in Wireless Networks","Joint Power Allocation and Caching Optimization in Fiber-Wireless Access Networks","Joint Power Allocation and Caching for SVC Videos in Heterogeneous Networks"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年7月，实验室论文"Low-Latency Authentication against Satellite Compromising for Space Information Network"被IEEE MASS 2018录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年7月，实验室论文"Joint Rate and Resource Allocation in Hybrid Digital-Analog Transmission over Fading Channels"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年6月，实验室论文"AnFRA: Anonymous and Fast Roaming Authentication for Space Information Network"被IEEE Transactions on Information Forensics and Security录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年6月，实验室论文"Resource Aware Routing for Service Function Chains in SDN and NFV-Enabled Network"被IEEE Transactions on Services Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年6月6日，实验室全体毕业生合影留念，本年度共有9名硕士生和2名博士生顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年5月，实验室论文"Service Outsourcing in F2C Architecture with Attribute-based Anonymous Access Control and Bounded Service Number"被IEEE Transactions on Dependable and Secure Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年5月，实验室论文"Energy Efficiency-Delay Tradeoff in Energy Harvesting-Based D2D Communication: An Experimental Learning Approach"被IEEE Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年5月，实验室裴家宁、贺培轩、章明同学赴美国肯萨斯参加IEEE ICC2018 会议。实验室有3篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年4月，实验室张祥、姜斅达同学赴美国夏威夷参加IEEE INFOCOM2018 会议。实验室有2篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年2月，实验室张祥同学INFOCOM2018论文“SEAF: A Secure, Efficient and Accountable Access Control Framework for Information Centric Networking”获得IEEE Communications Society的student travel grant award。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年2月，实验室论文“PSAP: Pseudonym-based Secure Authentication Protocol for NFC Applications”被IEEE Transactions on Consumer Electronics录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年1月，实验室论文“Virtual Network Function Placement Considering Resource Optimization and SFC Requests in Cloud Datacenter”被IEEE Transactions on Parallel and Distributed Systems录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年1月，实验室论文“Combining Data Owner-side and Cloud-side Access Control for Encrypted Cloud Storage”被IEEE Transactions on Information Forensics and Security录用</a>。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2018年1月，2实验室两篇论文被IEEE ICC2018录用，分别为：“LASA: Lightweight, Auditable and Secure Access Control in ICN with the Limitation of Access Times”和“QoE-Driven Scalable Video Broadcasting over NOMA Systems”</a>。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年12月，实验室论文"Receive Buffer Pre-division Based Flow Control For MPTCP"获得MSN2017 best paper award。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年12月，实验室姜斅达同学、王焱森同学和罗颖同学赴新加坡参加IEEE Globecom 2017。实验室有6篇论文在该会议宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年11月，实验室两篇论文被IEEE Infocom2018录用，分别为："Enabling Quality-Driven Scalable Video Transmission over Multi-User NOMA System", "SEAF: A Secure, Efficient and Accountable Access Control Framework for Information Centric Networking"。</p><hr class="hr-shadow">
+                            
+                                            <p><p>&bull; 2017年11月，实验室论文“Fog-aided Verifiable Privacy Preserving Access Control for Latency-Sensitive Data Sharing in Vehicular Cloud Computing.”被IEEE Network录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年10月，祝贺实验室洪佳楠同学获得第二届中国互联网发展基金会网络安全专项基金网络安全奖学金研究生奖学金（5万）！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年10月，恭喜实验室成员李少华、韩江萍、薛颖杰同学分别获得研究生国家奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，实验室负责的国家自然基金面上项目“无线异构环境下混合数模视频传输机制研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，实验室参与申请的重点研发计划项目“无线接入安全研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，实验室论文“DPSAF: Forward Prediction based Dynamic Packet Scheduling and Adjusting with Feedback for Multipath TCP in Lossy Heterogeneous Networks”被 IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，实验室四篇论文被IEEE WCSP2017录用，分别为："Virtual Network Forwarding Graph Embedding Based on Tabu Search","FompNet: Compressive Sensing Reconstruction with Deep Learning over Wireless Fading Channels","Incentive Cooperative Caching for Localized Information-Centric Networks","FFRD: Fragment Forwarding and Reassembly Decoupling Based Chunk Transmission in NDN"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，实验室一篇论文被IEEE ICCC2017录用, "Privacy-preserving Power Request and Trading by Prepayment in Smart Grid"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年9月，欢迎新同学（刘昀、陈怡欣、陆玉娇、马永金、周焕城、许婕、贺培轩、章明、郭凤谦、陈昱彤、顾卓佳、毛恒熙）加盟实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年7月，实验室六篇论文被IEEE GLOBECOM2017录用，分别为："Energy-Efficient Scheduling and Power Allocation for Energy Harvesting-Based D2D Communication", "FADM: DDoS Flooding Attack Detection and Mitigation System in Software-Defined Networking", "Joint Data and Power Allocation in HDA Transmission with Bandwidth Compression over Fading Channels", "Service Function Chain Mapping with Resource Fragmentation Avoidance", "Coupled Slow-Start: Improving the Efficiency and Friendliness of MPTCP’s Slow-Start", "Spatial Scalability Enabled Soft Video Broadcast for Users with Resolution Heterogeneity"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年7月，实验室论文“Resource Allocation for Energy Harvesting-powered D2D Communication underlaying Cellular Networks”被 IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年6月，实验室论文“PPMA: Privacy-Preserving Multi-Subset Aggregation in Smart Grid”被 IEEE Transactions on Industrial Informatics录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年6月，实验室论文“A Withered Tree Comes to Life Again: Enaibling In-Networking Caching in Traditional IP Networks”被 IEEE Communications Magazine录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年6月4日，实验室全体毕业生合影留念，本年度共有9名硕士生和1名博士生以优异的成绩顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年5月，实验室李健同学，王亚利同学和杨青友同学赴法国巴黎参加 IEEE ICC2017。实验室有3篇论文在该会议宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年4月，实验室论文“CABE: A New Comparable Attribute-based Encryption Construction with 0-Encoding and 1-Encoding”被 IEEE Transactions on Computers录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年3月，实验室论文“TAFC: Time and Attribute Factors Combined Access Control for Time-Sensitive Data in Public Cloud”被 IEEE Transactions on Services Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年2月，祝贺实验室论文"Two-Cloud Secure Database for Numeric-Related SQL Range Queries with Privacy Preserving" 被 IEEE Transactions on Information Forensics and Security 录用 。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年2月，实验室三篇论文被IEEE ICC2017录用，分别为："Temporal Netgrid Model based Routing Optimization in Satellite Networks", "Robust Satellite Image Transmission over Bandwidth-Constrained Wireless Channels", "A Privacy-Preserving and Real-Time Traceable Power Request Scheme for Smart Grid"。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2017年1月，实验室洪佩琳教授获得校第九届“平凡基金-教育奖”。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年12月，实验室吴昊同学、薛颖杰同学和杨柯同学赴美国华盛顿特区参加 IEEE Globecom2016，实验室有3篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年12月，祝贺实验室论文"RAAC: Robust and Auditable Access Control with Multiple Attribute Authorities for Public Cloud Storage" 被 IEEE Transactions on Information Forensics and Security 录用 。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年11月，祝贺实验室李威同学，陈炜铿同学分别获得首届中国互联网发展基金会网络安全专项基金网络安全奖学金研究生奖学金（5万）和本科生奖学金（3万）。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年10月，实验室论文"Compressed Uncoded Screen Content Video Transmission in Bandwidth-Constrained Wireless Networks"获得IEEE WCSP2016 best paper award!。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年9月，实验室论文“Energy-Aware Scheduling for Multi-Hop Cognitive Radio Networks”被 IEEE Transactions on Cognitive Communications and Networking录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年9月，欢迎新同学（韩江萍、杨青友、柳鹤婷、苏若麟、桂永强、柏雪、孟薇、薄磊、朱达人、李少华）加盟实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年9月，实验室负责的国家自然基金面上项目“异构无线网络中基于跨层干扰模型的协作通信”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年9月，实验室参与申请的重点研发计划项目“天地 一体化网络信息安全保障技术”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年8月，实验室参与申请的国家自然科学基金重点项目“混合数模传输中的图像视频处理理论与方法”获得立项。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年8月，实验室申请的国家自然科学基金面上项目“异构无线网络中基于跨层干扰模型的协作通信”获得立项。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年8月，实验室参与申请的重点研发项目“天地一体化网络信息安全保障技术”获得立项。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年8月，实验室论文“Throughput-Power Tradeoff Association for User Equipments in WLAN/Cellular Integrated Networks”被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年7月，实验室三篇论文“LABAC: A Location-aware Attribute-based Access Control Scheme for Cloud Storage”、“A Two-layer Caching Model for Content Delivery Services in Satellite-terrestrial Networks”、“Energy-aware Service Function Placement for Service Function Chaining in Data Centers”被IEEE Globecom 2016录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年6月3日，实验室全体毕业生合影留念，本年度共有11名硕士生和1名博士生以优异的成绩顺利毕业，且均找到理想工作，祝前程似锦！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年6月，恭喜实验室硕士生房秋生，耿瑞雯，张文，吕德志，江力，杨卓煦，吴义镇，程琤，陈珂，孔鑫柱，蒋伟顺利通过硕士论文答辩！</p>
+                            
+                                            <p>&bull; 2016年5月，恭喜实验室博士生卢昊顺利通过博士论文答辩！</p>
+                            
+                                            <p>&bull; 2016年5月，实验室鲁文娟同学赴马来西亚吉隆坡参加 IEEE ICC2016，实验室有1篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年4月，实验室春游，组织全体学生参加植物园烧烤，且集体参与其他活动!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年3月，实验室论文"Migrating Unfairness among Subflows in MPTCP with Network Conding For Wired-Wireless Networks"被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年2月，实验室论文"Power Control Based Time-Domain Inter-Cell Interference Coordination Scheme in DSCNs"被IEEE ICC2016录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2016年1月，实验室论文“High-Throughput Cooperative Communication with Interference Cancellation for Two-Path Relay in Multi-Source System”被评为第八届安徽省自然科学优秀学术论文一等奖！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年12月，实验室洪佳楠同学、孔鑫柱同学赴美国圣地亚哥参加IEEE Globecom2015，实验室有3篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年12月，实验室参与申请的国家自然科学基金重点课题“空地网络协同信息分发的传输模型与关键技术”获得资助！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年12月，实验室论文“Performance Improvement in DTNs by Packet Size Optimization”被IEEE Transactions on Aerospace and Electronic Systems录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年12月，薛开平老师入选中国科学院青年创新促进会会员；</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年9月，祝贺实验室卢昊同学、洪佳楠同学、李威同学获得国家奖学金!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年9月，欢迎新同学（罗颖、董孟雨、姜斅达、朱之凯、张祥、薛颖杰、陈白杨、王文哲、裴家宁、王焱森、王亚利、李健、曹承宝、许俊杰）加盟实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年7月，实验室论文“RPA-RA: A Resource Preference Aware Routing Algorithm in Software Defined Network”, “Joint Power Allocation for Hybrid Digital-Analog Transmission in Relay Networks”, “TAFC: Time and Attribute Factors Combined Access Control on Time-Sensitive Data in Public Cloud” 被IEEE Globecom 2015录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年7月，实验室论文“Analysis on Decode-and-Forward Two-Path Relay Networks: When and How to Cooperate”被IEEE Transactions on Vehicular Technology录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年6月，实验室论文“TMACS: A Robust and Verifiable Threshold Multi-Authority Access Control System in Public Cloud Storage”被IEEE Transactions on Parallel and Distributed Systems录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年6月2日，实验室全体毕业生合影留念，本年度共有9名硕士生和1名博士生以优异的成绩顺利毕业，且均找到理想工作。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年5月，恭喜实验室博士生彭金磷顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年5月，恭喜实验室硕士生倪丹、殷静、张泓、李光宇、姚龙、余林浩、李星、赵孝、梁昊驰顺利通过硕士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年5月，祝贺实验室博士生彭金磷获得中科院院长奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年5月，实验室论文“Adaptive Hybrid Digital-Analog Video Transmission in Wireless Fading Channel”被IEEE Transactions on Circuits and Systems for Video Technology录用。</p><hr class="hr-shadow">
+                                                
+                                            <p>&bull; 2015年2月，祝贺实验室已毕业博士孙卫强晋升为上海交通大学教授！！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2015年1月，实验室论文“OCPS:Offset Compensation basedPacket Scheduling Mechanism for Multipath TCP”被IEEE ICC 2015录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年12月，实验室论文“Uplink Traffic Cellular-first Access Scheme in Cellular/WLAN Integrated Networks”被IEEE WCNC 2015录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年10月，恭喜实验室彭金磷同学获得国家奖学金（博士）！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年10月，恭喜实验室倪丹同学获得华为二等奖学金，李星同学获得环球数码科技奖学金，赵孝、梁昊驰、张泓三位同学获得光华奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年10月，实验室论文“A Dynamic Secure Group Sharing Framework in Public Cloud Computing”被期刊IEEE Transactions on Cloud Computing录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年10月，实验室论文“Optimal Power Management under Delay Constraint in Cellular Networks with Hybrid Energy Sources&quot; 被期刊Computer Networks(Elsevier)录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年9月，欢迎新同学（李德方、李泽学、李威、杨柯、魏文佳、柳彬、胡婷婷、张鹏、吴杨龙、苏肖龙、鲁文娟、吴昊）加盟实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年8月，实验室论文“Facing the Signaling Storm: A Method with Stochastic Concept”和“NEMO-based Mobility Management in LISP Network”被WCSP2014（2014 International Conference on Wireless Communications and Signal Processing）录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年7月，实验室论文“ VNE-RFD:Virtual Network Embedding with Resource Fragmentation Consideration”被IEEE Globecom 2014录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年6月6日，实验室全体成员合影留念，恭喜实验室硕士和博士毕业生顺利毕业，并找到理想工作。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年6月，实验室论文“Energy-Aware Cellular Deployment Strategy under Coverage Performance Constraints”被期刊IEEE Transactions on Wireless Communications录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年6月4日，恭喜实验室唐浩同学顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年6月3日，恭喜实验室李晓龙、李保龙、朱超、姜福凯、毛誉熹、陈熙、王和洲、冯晨等八位同学顺利通过硕士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年5月，祝贺卢昊博士获得中科院院长奖。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年4月，实验室三篇论文“Adaptive Hybrid Digital-Analog Video Transmission in Wireless Mobile Networks”, “Congestion Exposure Enabled TCP with Network Coding for Hybrid Wired-Wireless Network”, “Fine-grained Forward Prediction based Dynamic Packet Scheduling Mechanism for Multipath TCP in Lossy Networks”被IEEE ICCCN2014录用，ICCCN（International Conference on Computer Communications and Networks）为网络通信领域的重要会议之一。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年2月，恭喜实验室已毕业博士生束永安晋升为安徽大学教授！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年2月，实验室论文“Stochastic Analysis of Optimal Base Station Energy Saving in Cellular Networks with Sleep Mode”被期刊IEEE Communication Letters 录用</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2014年1月，实验室论文“Generalized Inter-Relay Interference Cancellation for Two-Path Successive Relaying Systems ” 被期刊IEEE Transactions on Vehicular Technology录用 </p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年12月，实验室参与申请的国家自然科学基金重大项目“云环境下的图像视频群体协同表达与处理”课题三“视觉失真可容忍的群体化图像视频传输理论与方法”获得立项</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年12月，实验室参与申请的863计划课题“5G移动通信系统总体技术研究”获得立项</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年11月3日，实验室硕士房秋生征战纽约马拉松，并凯旋归来</p>
+                            
+                                            <p>&bull; 2013年9月2日至5日，实验室博士卢昊在美国内华达州拉斯维加斯IEEE第78届秋季VTC，实验室有2篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年9月，欢迎新同学（洪佳楠，房秋生，耿瑞雯，张 文，吕德志，江 力，杨卓煦，吴义镇，程 琤，陈 珂，孔鑫柱，蒋 伟）加入实验室，期待你们通过努力取得新的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年8月，国家自然基金面上项目“异构移动互联网环境下面向多接口终端的流数据传输优化”获得批准</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年8月，实验室论文“Stochastic Geometry Analysis of Energy Efficiency in Heterogeneous Network with Sleep Control”被期刊IEEE Wireless Communications Letters录用</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年7月，实验室论文“High-Throughput Cooperative Communication with Interference Cancellation for Two-Path Relay in Multi-source System”被期刊IEEE Transactions on Wireless Communications 录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年7月，美国佛罗里达大学Prof. Shigang Chen应实验室薛开平老师邀请来访科大，并做了题为“Compact and Fast Data Structures with Applications in Networks and RFID Systems”的报告。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年6月，实验室论文“Offloading Performance of Range Expansion in Picocell Networks: A Stochastic Geometry Analysis”被期刊IEEE Wireless Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年6月，实验室论文“A lightweight dynamic pseudonym identity based authentication and key agreement protocol without verification tables for multi-server architecture”被期刊Journal of Computer and System Sciences录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年5月31日，恭喜实验室张浩顺利通过博士论文答辩!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年5月30日，恭喜实验室郭璟、徐向前、李林、麻常莎、罗国功、李志鹏、裴畅姣、彭喆顺利通过硕士论文答辩!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2013年3月，实验室论文“Distributed access control with adaptive privacy preserving property for wireless sensor networks” 被期刊SECURITY AND COMMUNICATION NETWORKS录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年12月，祝贺实验薛开平老师晋升为副教授！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年12月，恭喜实验室麻常莎同学获得研究生国家奖学金，奖金额度2万元！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年9月，欢迎新同学（范强、李光宇、倪丹、殷静、张泓、吴博剑、姚龙、赵孝、李星、余林浩、粱昊驰）加盟实验室！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年6月2日，恭喜实验室杜振国、汪玉顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年6月1日，恭喜实验室熊宛星、蒋友辉、丁 戎、刘 正、李绪立、金 鑫、张金柱顺利通过硕士毕业论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年5月，恭喜实验室博士生杜振国入围中国科学院院长奖候选人！</span></p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年4月21日，实验室全体成员于安徽歙县举行学术研讨会。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年2月26日，实验室参与的863重点课题“无线宽带快速组网关键技术及系统”顺利通过国家科技部高技术研究与发展中心组织的专家验收。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年2月，实验室博士生杜振国论文“Hotspot Gravitation Mobility Model”为IEEE Communications Letters录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年1月，实验室日前有三项合作课题分别获得中电集团某所和华为公司的资助。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年1月，实验室洪佩琳教授、薛开平老师、博士生杜振国和张浩参加了于美国拉斯维加斯召开的CCNC会议，实验室有4篇论文在该会议上宣讲。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2012年1月，实验室硕士生刘正论文“On Reducing Delay in Mesh-based P2P Streaming: A Mesh-Push Approach”和“Small World P2P Overlay for Video Sharing Service”分别为IEICE Trans. on Communications 和WCNC2012录用。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年11月，实验室卢汉成副教授参加了于美国休士顿召开的Globecom2011，在会上宣讲了论文“Packet loss analysis for media streaming with network coding in wireless broadcast networks”。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年11月，实验室承担的中兴合作课题“MRO/MLB系统仿真开发与研究”于上海顺利通过验收，并得到高度好评。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年8月，实验室承担的安徽省自然基金项目“异构和动态环境下的P2P流媒体分发机制研究 ”顺利通过验收，并被评为A类（优）！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年3月，2011年9月欢迎新同学（毛誉熹、李保龙 、朱超 、卢昊 、李晓龙、陈熙 、 姜福凯、王和洲、冯晨）加盟实验室！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年8月，国家自然科学基金面上项目“具有延迟约束的无线网络资源控制机制研究”（项目编号61170231）获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年6月16日，实验室与中兴公司开展了合作项目第三次交流会，会中主要交流了第三阶段项目进展情况与项目中的具体技术细节。</span></p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年6月5日，实验室全体成员于马仁奇峰开展实验室交流会议。</span></p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年6月1日，恭喜实验室叶浩顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年5月29日，恭喜实验室刘志强、董荣荣、苏晨、王欢和明平洲顺利通过硕士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年5月25日，实验室和上海微系统所开展了合作交流会。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年3月2日，实验室与中兴公司开展了合作项目第二次交流会，会中主要交流了项目进展与项目中的具体技术细节，</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年1月12日，实验室于巢湖召开年终总结会议并相继开展了年终活动！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2011年1月11日，恭喜实验室铁晓磊顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年12月8日~9日，实验室与中兴公司开展了合作项目第一次交流会，会中主要交流了项目进展与项目中的具体技术细节。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年12月3日，恭喜实验室彭敏顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年10月29日，祝贺麻常莎同学获得2010年校运动会研究生女子800米第二名和研究生女子100米第七名的成绩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年10月，祝贺刘志强同学荣获2010年光华奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年9月24日，实验室集体去植物园烧烤过中秋！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年9月10日，祝实验室所有老师教师节快乐！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年7月18日，实验室集体去安徽奥体中心游泳馆游泳。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年6月，刘志强“Conflict Avoidance between Mobility Robustness Optimization and Mobility Load Balancing”被IEEE GLOBECOM 2010接收。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年6月，实验室博士生汪玉同学赴加拿大多伦多参加国家会议Netcod2010。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年6月，恭喜实验室郭婵、朱从州和马赟琪顺利通过硕士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2010年3月，校友孙卫强博士为第一作者参与制定的RFC标准近期被IETF国际标准组织作为最高级别的推荐性标准发布（RFC5814）！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年12月3日，祝贺实验室博士生朱斌和周伟顺利通过博士论文答辩！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年9月，国家自然科学基金青年基金项目“无线Mesh网环境下基于节点知识量表征的P2P流媒体分发机理研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2024年3月，2009年9月欢迎新同学（唐 浩、熊宛星、蒋友辉、刘志刚、丁 戎、刘 正、 李绪立、金 鑫、张金柱）加盟实验室！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年7月，实验室参与联合申请的科技部重大专项“全IP宽带移动网络架构及关键技术研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年7月，实验室联合申请的863重点项目“无线宽带快速组网关键技术及系统”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年4月，安徽省自然基金项目“异构和动态环境下的P2P流媒体分发机制研究”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2009年1月，实验室薛开平老师获得安徽省高等学校优秀青年人才基金项目资助。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年11月，欢迎吴静和闫清泉分别作为访问学者和博士后加盟实验室。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年10月，实验室两项目获得微软教育部重点实验室支持。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年9月，实验室与中电集团某所签订项目合作合同。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年9月，实验室联合申请的国家自然基金重点项目“临地空间信息栅格网理论与关键技术”获得批准。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年5月，祝贺实验室卢汉成老师晋升为副教授!</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年1月，实验室参与组建的无线网络通信安徽省重点实验室通过评审并获准立项建设。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2008年1月，实验室发布P2P流媒体电视系统InfoTV1.0，下载地点：http://202.38.75.79 。</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2007年12月，周晓波同学喜获HP优秀奖学金和朱李月华奖。2007-2008年度另有朱斌、叶浩获得航天信息爱心奖学金，陈正军获得光华奖学金！</p><hr class="hr-shadow">
+                            
+                                            <p>&bull; 2007年11月，本科生董伟同学喜获2007-2008学年度郭沫若奖学金，郭沫若奖学金为中国科学技术大学本科生的最高荣誉！</p><hr class="hr-shadow">
+                     
+                                            <p>&bull; 2007年3月，本科生获得两项教育部“国家大学生创新型实验计划”资助项目，据悉本次资助计划信息学院共获得10项。</p><hr class="hr-shadow">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rules end -->
+    <!-- footer start -->
+    <footer id="Contact">
+        <div class="footer-area primary-bg pt-20">
+            <div class="container">
+                <div class="footer-top">
+                    <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)； kpxue AT ustc.edu.cn(薛)</p>
+                    <p style="text-align: center; margin-bottom: 5px;">Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+<!-- JS here -->
+<script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+<script src="https://lzhstone95.github.io/infonet/js/main.js"></script>
+</body>
+
+</html>
