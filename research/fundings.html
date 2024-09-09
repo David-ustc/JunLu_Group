@@ -1,0 +1,324 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="https://lzhstone95.github.io/infonet/img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/animate.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/themify-icons.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/slick.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/meanmenu.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/default.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/style.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/responsive.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="home">
+        <div class="header-area">
+            <!-- header-top -->
+            <div class="header-top primary-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <div class="header-contact-info">
+                                <div class="header-contact">
+                                    <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="header-social-icon-list">
+                                <ul>
+                                    <li>
+                                        <span id="time"></span>
+                                        <p style="margin-bottom: 5px;">
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result = year+"/"+month+"/"+day+" ";
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    
+                                    <li>
+                                        <span id="time1"></span>
+                                        <p style="margin-bottom: 5px;">
+                                            <script>
+                                                function week_show(){
+                                                    var data1= new Date().getDay();
+                                                    var week;
+                                                    if(data1==0) week="星期日";
+                                                    if(data1==1) week="星期一";
+                                                    if(data1==2) week="星期二";
+                                                    if(data1==3) week="星期三";
+                                                    if(data1==4) week="星期四";
+                                                    if(data1==5) week="星期五";
+                                                    if(data1==6) week="星期六";
+                                                    document.getElementById("time1").innerHTML = week;
+                                                }
+                                                week_show();
+                                                setInterval("week_show()");
+                                            </script>
+                                        </p>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-top -->
+
+             <!-- header-bottom -->
+             <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://lzhstone95.github.io/infonet/index.html">
+                                    <img src="https://lzhstone95.github.io/infonet/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_transmission.html">&bull; 网络传输优化</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+    <!-- rules start -->
+    <div class="advisors-area pt-25 pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="primary-color" style="text-align: center; margin-bottom: 40px; font-size: 36px;"><b>研究项目</b></h2>
+                    <div class="events-details-form faq-area-form mb-20 p-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-16">
+                                    <div class="events-form-title">
+        
+                                        <h4 style="text-align: left; margin-bottom: 15px;" class="fa fa-bookmark"> 在研项目</h4>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金青年基金项目：面向未来的大规模量子信息网络中端到端纠缠传递关键技术研究（起止年月：2025.01-2027.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull; 中国科学技术大学校青年创新基金面上项目：存储增强型量子网络中纠缠路由关键技术研究（起止年月：2025.01-2026.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金青年基金项目：面向数据中心动态混合流量的网络传输优化关键技术研究（起止年月：2024.01-2026.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年度中国科大信息科学与技术学院人才基金：网络安全（起止年月：2024.03-2025.03）</p>
+                                        <p style="margin-bottom: 5px;">&bull; 国家自然科学基金面上项目：面向数据中心动态混合流量的网络传输优化关键技术研究（起止年月：2024.01-2027.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull; 国家自然科学基金青年基金项目：天地一体化信息网络中的缓存使能高效内容传输研究（起止年月：2023.01-2025.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中国科学技术大学青年创新基金：面向多模态网络的动态负载均衡技术研究（起止年月：2023.01-2024.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull; XX国家重点实验室开放基金项目：大规模卫星网络中基于机器学习的组网关键技术研究（起止年月：2023.01-2024.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金重点项目（联合基金）：基于用户边缘资源的沉浸式视频智能传输技术研究（起止年月：2022.11-2025.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  科技创新2030重大项目子课题：面向运营商云网业务的融合量子密钥分发的密码系统研究和应用示范（起止年月：2022.06-2026.06）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  安徽省重点研发计划项目：基于区块链的隐私保护大数据交易关键技术研究（起止年月：2022.01-2024.12）</p>
+                                        <p style="margin-bottom: 5px;">&bull;  科技部国家重点研发计划子课题：新型信息服务的表征与适配机制（起止年月：2020.12-2025.12）</p>
+                                
+                                        <h4 style="text-align: left; margin-top: 20px; margin-bottom: 15px;" class="fa fa-check-square"> 结题项目</h4>
+                                        <p style="margin-bottom: 5px;">&bull;  中国科学技术大学院士工作室启动基金：综合电子信息系统研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  安徽省量子信息技术先导项目子任务：量子密码在未来网络中的应用研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  JKW基础加强重点项目课题：可视化分析方法</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中国科学院青年创新促进会优秀会员支持项目：未来网络与网络安全</p>
+                                        <p style="margin-bottom: 5px;">&bull;  XX企业合作项目：天地一体化信息网络安全协议研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家科学技术学术著作出版基金资助项目：区块链技术及其在信息网络中的应用</p>
+                                        <p style="margin-bottom: 5px;">&bull;  博士后科学基金面上项目：天地一体化信息网络中基于图神经网络的智能路由机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 发改委重大科技基础设施：未来网络试验设施</p>
+                                        <p style="margin-bottom: 5px;">&bull; 国家自然科学基金面上项目：信息中心网络中访问控制和内容有效性保护关键技术</p>
+                                        <p style="margin-bottom: 5px;">&bull;  横向项目：下一代网络技术与架构研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金面上项目：无线异构环境下混合数模视频传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  创新特区项目：面向知识驱动网络的协作缓存和可靠传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金面上项目：异构无线网络中基于跨层干扰模型的协助通信</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家863计划子课题：5G移动通信系统总体技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金重大项目课题子课题：视觉失真可容忍的群体化图像视频传输理论与方法</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金重大研究计划重点课题：空地网络协同信息分发的传输模型与关键技术</p>
+                                        <p style="margin-bottom: 5px;">&bull;  工信部国家移动宽带重大专项子课题：全IP宽带移动网络架构及关键技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然基金面上基金项目：异构移动互联网环境下面向多接口的流数据传输优化</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金面上项目：具有延迟约束的无线网络资源控制机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家重大专项：面向IMT - Advanced多小区多用户干扰抑制和抵消技术</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家重大专项：物联网总体架构及关键技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  华为公司创新研究计划课题</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中电集团xx所xx技术发展高校项目课题</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中国互联网络信息中心合作课题：无线融合网络环境下面向多接口终端的移动性智能管理和传输优化技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金青年基金项目：无线Mesh网环境下基于节点知识量表征的P2P流媒体分发机理研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863重点课题：无线宽带快速组网关键技术及系统</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金面上项目：间歇性分割的自组织网络路由算法和节点移动模型研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  自然科学基金重点项目：临地空间信息栅格网理论与关键技术</p>
+                                        <p style="margin-bottom: 5px;">&bull; 国家科技重大专项“新一代宽带无线移动通信网”：IMT-Advanced新型无线网络技术研发</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家科技重大专项“新一代宽带无线移动通信网”：全IP宽带移动网络架构及关键技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  安徽省自然基金项目：异构和动态环境下的P2P流媒体分发机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  安徽省高等学校优秀青年人才基金重点项目</p>
+                                        <p style="margin-bottom: 5px;">&bull; 多媒体计算与通信教育部-微软重点实验室开放基金资助项目：路边到车辆的数据传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 多媒体计算与通信教育部-微软重点实验室开放基金资助项目：基于Mesh结构的多父节点应用层组播系统研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中央高校基本科研业务费专项资金-中国科学技术大学青年创新基金项目：基于WIFI的多射频无线网状网组网</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金青年基金项目： 移动环境下自适应可扩展延时容忍路由算法研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家下一代互联网（CNGI）项目：基于IEEE802.11b的支持移动IPv6的多媒体终端研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家下一代互联网（CNGI）项目：基于IPv6的P2P弹性重叠网络智能节点的研制</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中科院知识创新工作项目：IPv6网络关键技术研究和城域示范系统</p>
+                                        <p style="margin-bottom: 5px;">&bull;  国家自然科学基金重大研究计划：下一代网络体系结构协议模型与机制</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863通信技术课题：宽带网络中的组播安全协议及其应用研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863跟踪项目：移动IPv6关键技术</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863通信技术课题：实用化综合接入系统</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863通信技术重大课题：基于Internet的多媒体通信系统</p>
+                                        <p style="margin-bottom: 5px;">&bull;  863通信技术课题：多媒体通信终端接入B-ISDN的技术</p>
+                                        <p style="margin-bottom: 5px;">&bull;  安徽省自然科学基金：异构网络无缝切换技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  中电集团XX所技术发展高校项目课题：XXX信源定位技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 横向合作项目：基于PDA的移动IPv6实现</p>
+                                        <p style="margin-bottom: 5px;">&bull;  横向合作项目：IPv6发展趋势跟踪</p>
+                                        <p style="margin-bottom: 5px;">&bull;  横向合作项目：基于网络端的本地移动性管理技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull;  横向合作项目：异构和动态环境下的应用层组播系统研究</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rules end -->
+    
+    
+    <!-- footer start -->
+    <footer id="Contact">
+        <div class="footer-area primary-bg pt-20">
+            <div class="container">
+                <div class="footer-top">
+                    <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；  kpxue AT ustc.edu.cn(薛)</p>
+                    <p style="text-align: center; margin-bottom: 5px;">Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/main.js"></script>
+</body>
+
+</html>

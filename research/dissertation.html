@@ -1,0 +1,614 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="https://lzhstone95.github.io/infonet/img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/animate.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/themify-icons.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/slick.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/meanmenu.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/default.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/style.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/responsive.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #a11919;
+            padding: 8px;
+            text-align: center;
+            width: 33.33%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="home">
+        <div class="header-area">
+            <!-- header-top -->
+            <div class="header-top primary-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <div class="header-contact-info">
+                                <div class="header-contact">
+                                    <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="header-social-icon-list">
+                                <ul>
+                                    <li>
+                                        <span id="time"></span>
+                                        <p>
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result = year+"/"+month+"/"+day+" ";
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span id="time1"></span>
+                                        <p>
+                                            <script>
+                                                function week_show(){
+                                                    var data1= new Date().getDay();
+                                                    var week;
+                                                    if(data1==0) week="星期日";
+                                                    if(data1==1) week="星期一";
+                                                    if(data1==2) week="星期二";
+                                                    if(data1==3) week="星期三";
+                                                    if(data1==4) week="星期四";
+                                                    if(data1==5) week="星期五";
+                                                    if(data1==6) week="星期六";
+                                                    document.getElementById("time1").innerHTML = week;
+                                                }
+                                                week_show();
+                                                setInterval("week_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://lzhstone95.github.io/infonet/index.html">
+                                    <img src="https://lzhstone95.github.io/infonet/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_transmission.html">&bull; 网络传输优化</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+    <!-- rules start -->
+    <div class="advisors-area pt-25 pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="primary-color" style="text-align: center; margin-bottom: 40px; font-size: 36px;"><b>学位论文</b></h2>
+                    <table>
+                        <tr>
+                            <td><a href="#boshi"><b style="font-size: 22px;">研究生博士学位论文</b></a></td>
+                            <td><a href="#shuoshi"><b style="font-size: 22px;">研究生硕士学位论文</b></a></td>
+                            <td><a href="#benke"><b style="font-size: 22px;">本科生学士学位论文</b></a></td>
+                        </tr>
+                    </table>
+                    <div class="events-details-form faq-area-form mb-20 p-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-16">
+                                    <div class="events-form-title" style="margin-left: 15px;">   
+                                        <h4 style="text-align: left; margin-top: 10px; margin-bottom: 5px;" id="boshi"><i class="fa fa-graduation-cap"> <b>博士学位论文</b></i></h4>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 杨佳宇 &emsp; 命名数据网络中自适应拥塞控制与流量管理机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 庄&emsp;瑞 &emsp; 面向数据中心高动态差异化流量的拥塞管理关键技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 幸一涛 &emsp; 无线网络环境下基于多径传输的数据调度机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 李润洲 &emsp; 蜂窝网络下D2D通信的资源分配策略研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 李忠辉 &emsp; 大规模量子网络纠缠资源分发设计与优化</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 顾卓佳 &emsp; 无线边缘网络中的资源优化技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 郭凤谦 &emsp; 基于非正交多址接入的无线资源优化机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 秦&emsp;缙 &emsp; 信息中心网络种缓存管理与拥塞控制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 章&emsp;明 &emsp; 基于非正交多址接入的视频传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 桂永强 &emsp; 面向稳健多媒体传输的资源分配机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 韩江萍 &emsp; 面向异构网络的多径传输性能增强机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 魏文佳 &emsp; 基于MPTCP的多路径传输中的耦合拥塞控制和数据调度机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 裴家宁 &emsp; SDN/NFV网络中服务功能链的路由和资源优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 李&emsp;健 &emsp; 天地一体化信息网络中的星间路由与星地协同传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 姜斅达 &emsp; 面向无线视频传输的资源优化机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 吴　昊 &emsp; 基于边缘缓存的密集无线网络资源优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 李德方 &emsp; 数据中心中的服务功能链调度与虚拟网络功能体部署研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 洪佳楠 &emsp; 半可信云中基于属性加密扩展的访问控制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 罗　颖 &emsp; 基于能量收集的 D2D 通信资源分配与优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 范　强 &emsp; 无线异构网络中的用户接入控制和资源分配机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 卢　昊 &emsp; 多中继协作通信的跨层设计与优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 彭金磷 &emsp; 基于能效的异构蜂窝网络部署和资源管理优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 唐　浩 &emsp; LTE-A 异构网络中的干扰协调机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 张　浩 &emsp; 多跳蜂窝网络中的中继选择技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 杜振国 &emsp; 异构网络中的协作与协调增强机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 汪　玉 &emsp; 基于网络编码的无线单播和组播调度技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 铁晓磊 &emsp; 下一代移动通信系统中的移动性管理机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 叶　浩 &emsp; 异构环境下的P2P流媒体传输策略研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 彭　敏 &emsp; 延迟容忍网络中移动模型与路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 周　伟 &emsp; 异构网络中的移动管理和安全机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 朱　斌 &emsp; 802.16WiMAX系统中QoS和节能机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 周　健 &emsp; 结构化对等网络中的关键技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 张　瑞 &emsp; 基于802.11的无线网状网路由与传输技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 周晓波 &emsp; 延时容忍网络的路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 薛开平 &emsp; 对等网络中的可用性和安全性技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 刘　利 &emsp; 异构无线网环境移动IPv6研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 刘梦娟 &emsp; 异构网络环境下流媒体传输机制的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 黄景博 &emsp; 移动Ad Hoc网络的节能路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 覃振权 &emsp; 无线自组网路由和MAC关键技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 束永安 &emsp; 无线网状网媒体访问控制及路由协议研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 胡　鹏 &emsp; 无线自组网路由关键技术的研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 熊继平 &emsp; 对等网络中路由机制及关键技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 廖小飞 &emsp; 主动网络在移动IPv6等环境中的协议与机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 袁　巍 &emsp; 光突发交换网络区分服务研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 卢汉成 &emsp; 移动IPv6中的切换优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 王　辉 &emsp; IP域中IEEE802.11无线局域网QoS机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 孙卫强 &emsp; 下一代IP over DWDM光网络中的协议和机制 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 朱文涛 &emsp; 安全组播中的密钥管理 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 杨海松 &emsp; 基于策略管理的分布式、动态网络安全模型 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 王贵竹 &emsp; 互联网通信中的数据安全及其关键技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 胡军强 &emsp; 交换式路由器研究与设计</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 连一峰 &emsp; 分布式入侵检测系统研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 王大伟 &emsp; 虚拟专用网的安全研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 朱文涛 &emsp; 安全组播中的密钥管理 </p>
+                                    
+                                        <h4 style="text-align: left; margin-top: 20px; margin-bottom: 5px;" id="shuoshi"><i class="fa fa-graduation-cap"> <b>硕士学位论文</b></i></h4>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 揭习文 &emsp; 数据中心中基于带内网络遥测的拥塞控制机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 王&emsp;航 &emsp; Dragonfly 数据中心网络中路由和拥塞控制算法研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 陈光磊 &emsp; 数据中心中基于流长度感知的拥塞控制与调度机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 盛家华 &emsp; 在网计算的资源分配算法和段路由传输方案研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 汪子凯 &emsp; 基于区块链的匿名电子投票协议研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 唐&emsp;进 &emsp; 天地一体化网络中基于星上缓存的高效内容传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 柳&emsp;易 &emsp; 数据中心网络中的拥塞控制与缓冲区管理技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 薛&emsp;睿 &emsp; 安全可信的隐私保护联邦学习机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 陈可欣 &emsp; 数据中心网络中LDDoS攻击的检测与防御研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 王明君 &emsp; QKD网络中密钥分发方案和应用研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 徐熠镒 &emsp; Dragonfly数据中心网络中针对路由攻击的防御机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 张津源 &emsp; 软件定义网络中的链路泛洪攻击防御机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 张&emsp;原 &emsp; 多路径传输层协议算法设计与验证</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 贾其东 &emsp; 量子密钥分发协议设计及其在IPSec 协议中的应用研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 吴雨烟 &emsp; 基于Dragonfly网络拓扑的数据中心负载均衡机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 王亚正 &emsp; IRS辅助毫米波通信中的信道估计与能效优化</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 马朋飞 &emsp; 基于NOMA的上行视频传输技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2022年 &emsp; 赵&emsp;丹 &emsp; 基于IRS的无线下行传输性能增强</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 周靖淞 &emsp; SDN网络中服务功能链路由及虚拟网络功能资源优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 杨　特 &emsp; 蜂窝网络中的能量采集D2D通信资源分配 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 田航宇 &emsp; 5G核心网中基于区块链的数据访问控制及网络切片租赁方案</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 孟令辉 &emsp; 基于机器学习的视频码率自适应算法研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 孟建文 &emsp; 基于边缘网络的视频传输机制优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 刘进学 &emsp; 基于深度学习的MIMO索引调制信号检测算法研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 凌华泽 &emsp; 云外包场景下加密数据多关键词模糊搜索机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 盖　娜 &emsp; 智能电网中基于本地差分隐私的隐私保护数据聚合机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 陈若云 &emsp; 以用户为中心的边缘计算服务部署算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 周焕城 &emsp; 天地一体化网络场景下无缝安全切换与跨域机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 许　婕 &emsp; 基于区块链的用户身份管理和数据访问控制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 毛恒熙 &emsp; 基于深度学习的信道估计算法研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 马永金 &emsp; 5G网络中面向多运营商的分布式安全漫游机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 陆玉娇 &emsp; 基于深度强化学习的无线网络功率控制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 刘　昀 &emsp; 虚拟网络功能资源分配与服务功能链路由研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 贺培轩 &emsp; 信息中心网络安全高效的访问控制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 陈昱彤 &emsp; 信息中心网络中优先服务与协作缓存机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 朱达人 &emsp; 基于边缘缓存的异构无线网络频传输优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 杨青友 &emsp; 智能电网数据采集和处理中的安全增强机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 孟　薇 &emsp; 天地一体化信息网络安全接入认证机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 李少华 &emsp; 云端卷积神经网络算法的安全增强机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 薄　磊 &emsp; 基于机器学习的图像视频自适应高效传输</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 柏　雪 &emsp; 基于机器学习的服务功能链迁移机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 王焱森 &emsp; MPTCP下的公平性机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 王文哲 &emsp; 虚拟网络分片的部署和映射研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 朱之凯 &emsp; 服务功能链资源映射机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 张　祥 &emsp; 信息中心网络架构设计与访问控制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 许俊杰 &emsp; 信息中心网络中本地化协作缓存机制研究及算法实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 王亚利 &emsp; 基于压缩感知的图像稳健传输机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 曹承宝 &emsp; 命名数据网络中内容传输与缓存机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 薛颖杰 &emsp; 云存储中细粒度访问控制机制的功能扩展及健壮性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 陈白杨 &emsp; 基于云服务的MPTCP代理设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 张　朋 &emsp; 面向智能家居应用的低功耗蓝牙组网设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 杨　柯 &emsp; 数据中心网络中服务功能链的部署与路由 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 吴杨龙 &emsp; 基于排队模型的时延容忍网络性能分析与优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 苏肖龙 &emsp; 基于FreeRTOS的低功耗蓝牙转发功能的设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 柳　彬 &emsp; 面向链路比特流的未知帧识别与分析技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 李泽学 &emsp; 无线网络环境下基于无编码的视频传输技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 胡婷婷 &emsp; 以内容为中心的新型网络架构设计与缓存机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 李　威 &emsp; 公有云存储中基于属性加密的访问控制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 张　文 &emsp; SDN网络下跨域路由及网络功能体资源优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 吴义镇 &emsp; 面向下一代网络架构的移动管理关键技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 吕德志 &emsp; 水表抄表环境中的低功耗无线传感器网络设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 蒋　伟 &emsp; 基于C-RAN架构的无线网络资源管理的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 耿瑞文 &emsp; 信息受限的多域网络环境下的虚拟网络映射算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 房秋生 &emsp; SDN网络中资源偏好感知的路由与内容缓存机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 程　琤 &emsp; 能耗感知的轻量化安全抄表模块设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2016年 &emsp; 陈　柯 &emsp; 基于MPTCP的多径传输性能优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 李光宇 &emsp; 微功率无线抄表网络中路由方案的设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 李　星 &emsp; 虚拟网络映射算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 梁昊驰 &emsp; SDN可扩展路由及流表资源优化研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 倪　丹 &emsp; 基于MPTCP的多路径传输优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 姚　龙 &emsp; 软件定义网络控制器容量及部署问题研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 殷　静 &emsp; 基于SDN的移动管理技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 余林浩 &emsp; 异构网络时域干扰协调与资源分配的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 张　泓 &emsp; TCP网络编码拥塞控制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2015年 &emsp; 赵　孝 &emsp; 无线网络中自适应混合数模视频传输技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 陈　熙 &emsp; 物联网中低功耗节点组播路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 冯　晨 &emsp; 远程抄表系统的组网及其安全技术</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 姜福凯 &emsp; 延迟容忍网络传输优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 李保龙 &emsp; 微功率无线抄表系统中多信道MAC协议和路由协议的设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 李晓龙 &emsp; 无线环境下多媒体传输服务质量研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 毛誉熹 &emsp; 无线Mesh网络干扰感知路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 王和洲 &emsp; 面向比特流的链路协议识别与分析技术 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 朱　超 &emsp; 基于OpenFlow的软件定义网络路由技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 徐向前 &emsp; 基于IPv6的物联网中寻址与路由技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 裴畅娇 &emsp; 具有时延约束的无线网络队列管理研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 麻常莎 &emsp; 物联网中安全接入控制技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 罗国功 &emsp; 无线传感网中的地址分配技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 李志鹏 &emsp; 无线环境下基于视频内容感知的调度技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 李　林 &emsp; LTE-A异构网络中小区间干扰协调技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 郭　璟 &emsp; 基于MPTCP的网络传输技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 丁　戎 &emsp; 无线网状网中信道分配及其安全机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 金　鑫 &emsp; 基于微功率无线通信技术的自动抄表系统设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 蒋友辉 &emsp; 无线环境下基于网络编码的多播数据传输研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 刘　正 &emsp; P2P流媒体系统QoS优化策略研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 李绪立 &emsp; 一种电力线载波通信组网方案的设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 熊宛星 &emsp; 密集传感器网络中基于地址分配的路由与安全问题研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 张金柱 &emsp; LTE-A网络中的小区间干扰协调技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 明平洲 &emsp; 多LMA环境代理移动IPv6协议的研究和实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 苏　晨 &emsp; 无线网状网中的接入控制机制和QoS路由协议研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 董荣荣 &emsp; LTE及LTE-Advanced小区边缘性能提升的中继技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 刘志强 &emsp; LTE移动负载均衡技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 王　欢 &emsp; 无线网络环境下基于网络编码的路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 郭　婵 &emsp; 无线网状网多径路由协议及其安全 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 马赟琪 &emsp; 路边到车辆数据传输机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 朱从州 &emsp; P2P实时流媒体系统中的数据调度机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 陈正军 &emsp; P2P流媒体系统数据调度机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 胡明秀 &emsp; P2P文件共享系统反污染机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 李盼盼 &emsp; 基于网络编码的无线网状网路由技术的研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 潘蓝兰 &emsp; 协作式垃圾邮件过滤技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 张　幸 &emsp; Ad Hoc网络中QoS路由协议研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 黄志斌 &emsp; 移动IPv6安全性研究 2</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 刘芳林 &emsp; 基于网状覆盖网络的P2P流媒体系统的研究与实现</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 黄冠尧 &emsp; 对等网络中的激励策略研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 杨福荣 &emsp; Ad Hoc网络密钥管理机制及应用研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 张虎强 &emsp; 基于ElGamal加密同态性的电子投票系统研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 陈　飘 &emsp; 延时可容忍网络路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 吴叶国 &emsp; ROHC在移动IPv6中的实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 修志华 &emsp; IPv6中基于节点异构的结构化P2P系统研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 程　剑 &emsp; 移动Ad Hoc网络中的TCP性能改进 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 李　刚 &emsp; 移动IPv6协议的安全性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 彭永超 &emsp; 移动IPv6快速切换协议的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 齐庆虎 &emsp; 内容寻址网络性能优化及内容的有效定位 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 张有为 &emsp; 基于DHT的P2P研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 方　宇 &emsp; 基于IPv6的家庭网络系统 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 张凤翔 &emsp; 传感器网络的安全防护机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 杜　平 &emsp; OBS网络体系结构 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 彭燕林 &emsp; 本地移动管理中的路由优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 李　蕾 &emsp; 鲁棒性头标压缩及其在移动IPv6中的应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 杨海军 &emsp; 高速网络流量调度算法设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 陈　刚 &emsp; 交换式路由器控制系统的研究与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 杨凯锋 &emsp; 路由器中若干关键技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 梁　军 &emsp; 交换式路由器的设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 1998年 &emsp; 江　雄 &emsp; 输入缓冲结构ATM交换机设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 1997年 &emsp; 王　欣 &emsp; ATM-LAN系统设计与实现及多媒体通信技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 1997年 &emsp; 王　星 &emsp; ATM交换机的理论研究与设计及B-ISDN的接入技术媒体终端</p>
+
+                                        <h4 style="text-align: left; margin-top: 20px; margin-bottom: 5px;" id="benke"><i class="fa fa-graduation-cap"> <b>本科生学位论文</b></i></h4>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 胡东方 &emsp; 针对源端伪造攻击的邮件客户端安全性研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 刘浩平 &emsp; 面向国产可信硬件和国密算法的可信认证机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 高&emsp;越 &emsp; 基于DNS流量特征的子网设备数量和种类测绘技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 杨&emsp;兵 &emsp; 量子网络中基于流损耗效应的高效纠缠路由设计</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 张子和 &emsp; 基于多路径代理的视频会议传输加速技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 冯&emsp;伟 &emsp; 扛损毁二进制数据零水印技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 春皓源 &emsp; 面向智慧科大的下一代基于风险识别系统的统一认证身份机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 杨宇祺 &emsp; 量子密钥分发网络中基于负载均衡的路由方案研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2024年 &emsp; 安佳文 &emsp; 基于区块链的跨域可信数据共享机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 丁&emsp;雷  &emsp; 高机动飞行器定向自组网安全协议设计与分析</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 杜晨飒 &emsp; 校园场景下钓鱼邮件特征分析和演练平台构建</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 伏宇扬 &emsp; 外包场景下隐私保护统计分析的设计与实现</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 高旭民 &emsp; 一种融合量子密钥的 IPSec 协议设计</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 蒋佳洱 &emsp; 高效隐私求交协议设计及其应用研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 刘谨豪 &emsp; 基于应用需求区分的MPQUIC数据调度技术研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 吴佳琦 &emsp; 量子密钥分发网络中基于优先级感知的分布式路由</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2023年 &emsp; 张&emsp;烨 &emsp; 遗留数据兼容的自我主权身份（SSI）系统的设计</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 杨锦江 &emsp; 公共云加密数据模糊搜索机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 李美琪 &emsp; 基于区块链的无中心安全电子投票系统 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 陈雨新 &emsp; 实时采集流媒体高效加解密和共享机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 黄雅暄 &emsp; 基于差分隐私的数据采集与安全分析</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 黄梓旭 &emsp; SDN网络中的DoS攻击和防范机制研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 柳&emsp;易 &emsp; 一种数据中心中基于AI的拥塞控制算法</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2021年 &emsp; 薛&emsp;睿 &emsp; 实用化隐私保护机器学习算法和系统</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 章放宇 &emsp; 数据中心任务调度的优化技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2020年 &emsp; 申瑞展 &emsp; 移动边缘计算中基于网络积分的业务流分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 朱　滨 &emsp; 一种移动群智感知中隐私保护的深度学习方案 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 钟永强 &emsp; 基于Docker的NFV平台搭建性能测试 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 张　原 &emsp; MPTCP应用在安卓手机端以及相关测试 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 袁少贤 &emsp; Tor网络网站指纹的背景流防御方法 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 杨佳宇 &emsp; 多径传输在CDN中的应用及传输优化问题的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 王亚正 &emsp; 基于机器学习的无线网络功率控制机制及性能评估 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 王　航 &emsp; 基于因子分解机的服务功能链路由算法 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 盛家华 &emsp; 基于深度学习的虚拟网络功能选择和链化算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 贾其东 &emsp; 预共享基底的QKD协议的安全性分析及应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2019年 &emsp; 范　茂 &emsp; 5G中对AKA过程的去同步攻击与问题解决 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 幸一滔 &emsp; 多径传输协议的实现和性能优化 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2018年 &emsp; 万印鑫 &emsp; 一种基于一次签名的轻量级信息中心网络访问控制方案 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 周焕城 &emsp; 天地一体化网络中的终端安全接入和切换机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 许　婕 &emsp; 近场通信中条件隐私保护协议的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 马永金 &emsp; 天地一体化网络中安全接入机制的模拟研究</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 刘　昀 &emsp; 数据中心的虚拟网络功能体部署</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 贺培轩 &emsp; 命名数据网络中的安全问题研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2017年 &emsp; 陈怡欣 &emsp; 基于增量SVM学习算法的DDoS攻击检测 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2014年 &emsp; 李德方 &emsp; SDN下考虑拥塞缓解的路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 程　琤 &emsp; 可移动无线远程视频采集系统路由协议的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2013年 &emsp; 房秋生 &emsp; 基于移动自组织网络的视频监控系统的设计和实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 范　强 &emsp; 基于低压电力线载波的动态路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 洪佳楠 &emsp; 链路协议的识别与解析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 李光宇 &emsp; 深空网络路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 倪　丹 &emsp; 异构网络环境下基于PMIPv6协议的流移动管理机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 殷　静 &emsp; 空间互联网建模与仿真 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2012年 &emsp; 张　泓 &emsp; WSN中任播组的动态配置 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 樊予琦 &emsp; 无线Mesh网络中接入控制设计与性能评估 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 冯　晨 &emsp; 针对470MHz无线抄表系统自组网的路由和安全方案设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 李　骁 &emsp; 网络编码环境下针对污染攻击的安全检查机制 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 卢　昊 &emsp; 多中继系统中基于复数域网络编码的全速传输的两跳协作通信 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 朱声高 &emsp; 基于网络编码和可分层视频编码的P2P直播流媒体系统设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 丁　宁 &emsp; 网络编码缓冲区压缩算法 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 胡　微 &emsp; 车载Ad-Hoc网络安全性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 李　铮 &emsp; 无线Mesh网路由有效性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 李志鹏 &emsp; PMIPv6的实现及其在异构网络环境中的应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 彭金磷 &emsp; 协作通信中常用协作机制的仿真与性能分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 王菁菁 &emsp; 基于RTSCTS的电力线通信碰撞回避机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 吴楚楚 &emsp; 缓解拥塞的网络编码方案研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 张晋升 &emsp; 移动Ad Hoc网络中的可信路由机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2010年 &emsp; 张晓妹 &emsp; 一种基于代的网络编码在实时应用中的分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 杜松蒲 &emsp; 分布式网络拍卖中安全问题的研究 </p>				
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 刘志刚 &emsp; 无线网络中编码感知路由技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 南明希 &emsp; 无线环境下的网络编码机会分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 唐　浩 &emsp; CoMP-SU-MIMO中的频率规划机制的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 王　昉 &emsp; 城市环境下车辆网络的垂直切换算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 熊宛星 &emsp; 电力线载波环境下动态组网与路由算法研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2009年 &emsp; 张金柱 &emsp; LTE-A中Comp小区分簇的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 董　伟 &emsp; P2P流媒体系统中激励机制的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 龙　可 &emsp; TrustNet中的源追溯技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 凌　坤 &emsp; 基于InfoTV的检测软件设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 刘云峰 &emsp; P2P流媒体系统中的节点聚类 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 苏　晨 &emsp; Internet网络环境下的信源定位技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 殷　波 &emsp; COPE系统中的缓存器管理研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 杨盛波 &emsp; 移动Ad hoc网络中Internet网关发现机制的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2008年 &emsp; 张　浩 &emsp; 无线Ad hoc网络中视频流传输技术 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 郑玉娇 &emsp; 无线网络中基于COPE的网络编码机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 茅周佳 &emsp; GAH：一种基于新型混合策略的多接口无线网信道分配算法 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 汪　玉 &emsp; FGS在应用层组播系统中的应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 马赟琪 &emsp; 端到端有效带宽测量技术的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 郭　婵 &emsp; 无线传感器网络密钥分配机制的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 李　燕 &emsp; CWNC：基于等重码的网络编码方案 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2007年 &emsp; 王　倩 &emsp; 针对移动Ad Hoc网络的TCP改进 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 王永智 &emsp; 移动IPv6快速切换的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 胡明秀 &emsp; 病毒在非结构化P2P网络上传播特性及隔离措施 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 潘蓝兰 &emsp; P2P中的负载均衡和复制机制研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 李盼盼 &emsp; 无线网状网路由技术研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 田旷怡 &emsp; P2P网络信任及公平性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2006年 &emsp; 王彦茹 &emsp; 多信道无线mesh网的信道分配研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 瞿玲燕 &emsp; P2P的信任机制 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 郭　政 &emsp; 对于结构化p2p网络的统一接口的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 田久明 &emsp; IPv6过渡机制的安全 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 彭　敏 &emsp; 基于IPv6的信息家电网关 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 铁晓磊 &emsp; 移动IPv6的安全性研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 高　伟 &emsp; 方向性广播： 基于节点位置的 Ad-hoc 路由发现机制 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2005年 &emsp; 于　洋 &emsp; 对DSR协议的能量改进与QoS支持 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 谢　瑶 &emsp; HiMCAN：一种新型的基于DHT的CAN </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 王晓慧 &emsp; 主动组播及其应用模型设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 张　幸 &emsp; 适应性组播方案—主动网络分层组播 年</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 周　伟 &emsp; Diameter协议在移动IPv6中的研究与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 朱　斌 &emsp; IPv6防火墙接入控制的设计与实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 张爱华 &emsp; IPv6防火墙中NAT/PT的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2004年 &emsp; 蒋中国 &emsp; 组播通信的密钥管理研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 周　健 &emsp; 分布式计算模型研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 薛开平 &emsp; P2P中的安全问题研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 郭立鹏 &emsp; 基于应用的入侵检测系统 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 吴业国 &emsp; Ad Hoc网络路由协议的研究与仿真 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 张　瑞 &emsp; 内容寻址网络 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2003年 &emsp; 修志华 &emsp; 基于IPSec的DHCP协议 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 彭永超 &emsp; 移动IPv6的快速切换及仿真实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 许　敏 &emsp; 波长分配信令协议的网络仿真缩减 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 苏智勇 &emsp; 移动IPv6的稳健头标压缩及其仿真实现</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 吴微威 &emsp; IPv6路由协议的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 李启諹 &emsp; IPv6安全机制中的ESP与AH分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 马　明 &emsp; 光突发交换网络的研究与仿真 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 冯萍慧 &emsp; IPv6中的QoS技术 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 刘　亮 &emsp; 一次性密码简单安全认证层 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 刘　利 &emsp; 内容配送网络和请求路由仿真 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 李　刚 &emsp; 简单网管协议在策略服务系统中的应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 黄景博 &emsp; 移动IPv6的ROHC及仿真实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2002年 &emsp; 曹　芳 &emsp; IPv6基本协议分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 胡　鹏 &emsp; 新一代网络安全标准IPsec及其策略的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 熊继平 &emsp; IPv4到IPv6的过渡策略和应用分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 廖小飞 &emsp; 网络安全与入侵检测 年</p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 张凤翔 &emsp; 支持区分服务的策略服务器的设计 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 朱祖京力 &emsp; X.509 PKI体系研究及其在IPSec系统中的应用 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 谢　斌 &emsp; 移动IPv6及其在不同OS下的实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 陈　曦 &emsp; 蜂窝移动IPv6研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 金　琰 &emsp; 移动IPv6中本地代理的实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2001年 &emsp; 方　正 &emsp; 移动IP与AAA的结合 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 卢汉成 &emsp; 视频流在IPv6网上的传输 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 王　辉 &emsp; IPv4向IPv6演进技术 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 张爱民 &emsp; 在基于Linux操作系统的IPv6路由器上实现QoS </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2011年 &emsp; 化存卿 &emsp; 区分服务体系结构及性能分析 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 向　继 &emsp; IPv6流标记的研究 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 杜　平 &emsp; 交换式路由器的ARP表的查询与更新 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 卓　童 &emsp; Windows NT下IPv6的建设 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 胡　艳 &emsp; QoS策略控制系统中策略服务器的实现 </p>
+                                        <p style="margin-bottom: 5px;">&bull; 2000年 &emsp; 彭燕林 &emsp; LDAP协议及其实现</p>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rules end -->
+    
+    
+    <!-- footer start -->
+    <footer id="Contact">
+        <div class="footer-area primary-bg pt-20">
+            <div class="container">
+                <div class="footer-top">
+                    <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；    kpxue AT ustc.edu.cn(薛)</p>
+                    <p style="text-align: center; margin-bottom: 5px;">Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/main.js"></script>
+</body>
+
+</html>

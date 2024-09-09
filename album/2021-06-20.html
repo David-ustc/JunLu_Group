@@ -1,0 +1,346 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="https://lzhstone95.github.io/infonet/img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/animate.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/themify-icons.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/slick.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/meanmenu.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/default.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/style.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/responsive.css">
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #a11919;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .col1 {
+            width: 15%;
+        }
+        .col2 {
+            width: 35%;
+        }
+        .col3 {
+            width: 15%;
+        }
+        .col4 {
+            width: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+<!-- header-start -->
+<header id="home">
+    <div class="header-area">
+        <!-- header-top -->
+        <div class="header-top primary-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                        <div class="header-contact-info">
+                            <div class="header-contact">
+                                <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="header-social-icon-list">
+                            <ul>
+                                <li>
+                                    <span id="time"></span>
+                                    <p>
+                                        <script>
+                                            function time_show(){
+                                                var date = new Date();
+                                                var year = date.getFullYear();
+                                                var month = date.getMonth()+1;
+                                                month=month<10?"0"+month:month;
+                                                var day = date.getDate();
+                                                day=day<10?"0"+day:day;
+                                                var result = year+"/"+month+"/"+day+" ";
+                                                document.getElementById("time").innerHTML = result;
+                                                }
+                                            time_show();
+                                            setInterval("time_show()");
+                                        </script>
+                                    </p>
+                                </li>
+                                <li>
+                                    <span id="time1"></span>
+                                    <p>
+                                        <script>
+                                            function week_show(){
+                                                var data1= new Date().getDay();
+                                                var week;
+                                                if(data1==0) week="星期日";
+                                                if(data1==1) week="星期一";
+                                                if(data1==2) week="星期二";
+                                                if(data1==3) week="星期三";
+                                                if(data1==4) week="星期四";
+                                                if(data1==5) week="星期五";
+                                                if(data1==6) week="星期六";
+                                                document.getElementById("time1").innerHTML = week;
+                                            }
+                                            week_show();
+                                            setInterval("week_show()");
+                                        </script>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://lzhstone95.github.io/infonet/index.html">
+                                    <img src="https://lzhstone95.github.io/infonet/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_transmission.html">&bull; 网络架构与传输</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+   <!-- rules start -->
+   <div class="advisors-area pt-25 pb-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+                <h2 class="primary-color" style="text-align: center; margin-bottom: 40px; font-size: 30px;"><b>实验室成员和全体毕业生合影留念</b></h2>
+                <div class="events-details-form faq-area-form mb-20 p-0">
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-16">
+                                <div class="events-form-title">
+                                    <p>&emsp;&emsp;2021年6月20日，信息网络实验室全体成员于信院大楼门前合影留念。</p>
+                                    
+                                    <p style="text-align: center;"><img src="https://lzhstone95.github.io/infonet/img/album/2021-06-20/news-1.jpg" style="width:800px;"></p>
+                                    <p style="text-align: center;">图一：实验室全体成员合影</p>
+
+                                    <p>&emsp;&emsp;恭喜实验室桂永强博士，陈怡欣、陈若云、盖娜、凌华泽、夏秋冬、刘进学、杨特、周靖淞、田航宇、孟建文、孟令辉、邹晨凯十二位硕士顺利毕业，并找到理想工作，祝前程似锦！</p>
+
+                                    <p>&emsp;&emsp;实验室2021毕业生的工作去向如下：</p>
+
+                                    <table>
+                                        <tr>
+                                            <th class="col1">姓名</th>
+                                            <th class="col2">就职单位</th>
+                                            <th class="col3">姓名</th>
+                                            <th class="col4">就职单位</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">桂永强（博士）</td>
+                                            <td class="col2">字节跳动（上海）</td>  
+                                            <td class="col3">陈若云</td>
+                                            <td class="col4">微软（苏州）</td> 
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">盖娜</td>
+                                            <td class="col2">百度（深圳）</td>
+                                            <td class="col3">凌华泽</td>
+                                            <td class="col4">中国银行（西安）</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">夏秋冬</td>
+                                            <td class="col2">微软（苏州）</td>
+                                            <td class="col3">刘进学</td>
+                                            <td class="col4">华为（上海）</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">杨特</td>
+                                            <td class="col2">华为（上海）</td>
+                                            <td class="col3">周靖淞</td>
+                                            <td class="col4">国家电网（杭州）</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">田航宇</td>
+                                            <td class="col2">蚂蚁金服（杭州）</td>
+                                            <td class="col3">陈怡欣</td>
+                                            <td class="col4">中国电信广东研究院</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">孟建文</td>
+                                            <td class="col2">欢聚时代（上海）</td>
+                                            <td class="col3">孟令辉</td>
+                                            <td class="col4">京东（北京）</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col1">邹晨凯</td>
+                                            <td class="col2">滴滴（杭州）</td>
+                                            <td class="col3"></td>
+                                            <td class="col4"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- rules end -->
+
+        <!-- footer start -->
+        <footer id="Contact">
+            <div class="footer-area primary-bg pt-20">
+                <div class="container">
+                    <div class="footer-top">
+                        <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                        <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                        <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；  kpxue AT ustc.edu.cn(薛)</p>
+                        <p style="text-align: center; margin-bottom: 5px;">Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/main.js"></script>
+</body>
+
+</html>

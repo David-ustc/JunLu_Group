@@ -1,0 +1,272 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大陆军院士工作室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="https://lzhstone95.github.io/infonet/img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/animate.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/themify-icons.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/slick.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/meanmenu.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/default.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/style.css">
+    <link rel="stylesheet" href="https://lzhstone95.github.io/infonet/css/responsive.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="home">
+        <div class="header-area">
+            <!-- header-top -->
+            <div class="header-top primary-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <div class="header-contact-info">
+                                <div class="header-contact">
+                                    <p class="phone-number" style="font-size: 16px;">欢迎访问陆军院士工作室！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="header-social-icon-list">
+                                <ul>
+                                    <li>
+                                        <span id="time"></span>
+                                        <p>
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result = year+"/"+month+"/"+day+" ";
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span id="time1"></span>
+                                        <p>
+                                            <script>
+                                                function week_show(){
+                                                    var data1= new Date().getDay();
+                                                    var week;
+                                                    if(data1==0) week="星期日";
+                                                    if(data1==1) week="星期一";
+                                                    if(data1==2) week="星期二";
+                                                    if(data1==3) week="星期三";
+                                                    if(data1==4) week="星期四";
+                                                    if(data1==5) week="星期五";
+                                                    if(data1==6) week="星期六";
+                                                    document.getElementById("time1").innerHTML = week;
+                                                }
+                                                week_show();
+                                                setInterval("week_show()");
+                                            </script>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://lzhstone95.github.io/infonet/index.html">
+                                    <img src="https://lzhstone95.github.io/infonet/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_transmission.html">&bull; 网络架构与传输</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://lzhstone95.github.io/infonet/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://lzhstone95.github.io/infonet/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <hr style="margin-top: -1px;">
+
+    <!-- details-start -->
+    <div class="adivisors-details-area pt-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 mb-30">
+                    <div class="advisor-img mb-35">
+                        <img src="https://lzhstone95.github.io/infonet/img/peoples/teachers/kpxue.png" alt="" style="width: 249px; height: 320px;">
+                        <p style="text-align: center; margin-top: 10px;"><b>Email: kpxue AT ustc.edu.cn</b></p>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="adivisor-text-2 white-bg">
+                        <div class="adivisor-text-heading d-flex mb-10">
+                            <div class="adivisor-text-title adivisor-text-title-2">
+                                <h4>薛开平</h4>
+                            </div>
+                        </div>
+                        <div class="adivisor-para adivisor-para-2">
+                            <p>男，1980年5月生，江苏东台人。网络空间安全学院教授、博导，中国科学技术大学网络信息中心主任、安徽省教育和科研计算机网网络中心主任。入选教育部青年长江学者、中科院青年创新促进会优秀会员、安徽省教学名师，作为第一完成人获得安徽省教学成果一等奖。主要研究方向包括量子网络、未来网络体系架构与传输优化、隐私计算、和网络安全协议设计与分析等。先后主持和参与多项国家自然科学基金项目、国家重大科技基础设施、重点研发项目课题和子课题、国家863重点项目子课题、科技部重大专项子课题等。为IET Fellow、IEEE Senior Member、CCF Distinguished Member，担任IEEE Trans. on Information Forensics and Security (TIFS)、IEEE Trans. on Dependable and Secure Computing (TDSC)、IEEE Trans. on Wireless Communications (TWC)、IEEE Trans. on Network and Service Management (TNSM) 等在内的多个权威SCI期刊的编委，并担任IEEE JSAC、IEEE ComMag、IEEE Network等期刊/杂志的首席客座编委或客座编委，以及IEEE ICDCS'24、IEEE ICNC'24等权威国际学术会议的程序委员会分会主席等。近年来在国内外重要期刊和会议发表论文百余篇，其中作为第一/通讯作者发表高水平论文（中科院一区、CCF A类或ACM/IEEE汇刊）70余篇，获得ACM CCS'20最佳论文提名奖、MSN'17和IEEE HotICN'19最佳论文奖，IEEE MASS'18最佳论文提名奖，以及MSN'20最佳Track论文奖。入选爱思唯尔（Elsevier）“网络空间安全”领域“中国高被引学者”，全球前2%顶尖科学家“终生科学影响力排行榜单”和“年度科学影响力排行榜单”。拥有授权发明专利40余项，含美国授权发明专利2项和欧盟授权发明专利1项。个人主页：<a href="http://staff.ustc.edu.cn/~kpxue">http://staff.ustc.edu.cn/~kpxue</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <p style="font-size: 22px; color: black;" class="fa fa-cogs"> 主要承担科研项目</p>
+                    <ul>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 国家自然科学基金项目：信息中心网络中的访问控制和内容有效性保护关键技术研究</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 科技创新2030-重大项目 “面向运营商云网业务的融合量子密钥分发的密码系统研究和应用示范”子课题</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 重点研发项目子课题 “天地一体化网络实体认证与接入防护关键技术及系统”子课题</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 科技创新特区项目 “知识驱动网络中的协作缓存和可靠性传输机制研究”</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 安徽省量子信息技术先导项目“量子密码在未来网络中的应用研究”子任务</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 重要方向培育项目“无线大数据网络关键理论和技术研究”</p></li>
+                        <li><p style="margin-bottom: 5px; font-size: 15px; color: #3a3838;"> &bull; 国家自然科学基金项目 “异构移动互联网环境下面向多接口的流数据传输优化”</p></li>
+                        <li><p style="margin-bottom: 35px; font-size: 15px; color: #3a3838;"> &bull; 863 重点“无线宽带快速组网关键技术及系统”子课题：快速组网环境中多跳路由协议研究与开发</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- details-end -->
+
+    <!-- footer start -->
+    <footer id="Contact">
+        <div class="footer-area primary-bg pt-20">
+            <div class="container">
+                <div class="footer-top">
+                    <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                    <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；  kpxue AT ustc.edu.cn(薛)</p>
+                    <p style="text-align: center;">Copyright © 中国科大陆军院士工作室 保留所有权利</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/popper.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/bootstrap.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/owl.carousel.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/isotope.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/one-page-nav-min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/slick.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/ajax-form.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/wow.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.meanmenu.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.scrollUp.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.barfiller.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.counterup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/waypoints.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://lzhstone95.github.io/infonet/js/plugins.js"></script>
+</body>
+
+</html>
