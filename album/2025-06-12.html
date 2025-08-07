@@ -1,0 +1,273 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>中国科大信息网络实验室</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="https://infonetlab2020.github.io/JunLu_Group/img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/animate.min.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/themify-icons.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/slick.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/meanmenu.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/default.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/style.css">
+    <link rel="stylesheet" href="https://infonetlab2020.github.io/JunLu_Group/css/responsive.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+<!-- header-start -->
+<header id="home">
+    <div class="header-area">
+        <!-- header-top -->
+        <div class="header-top primary-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                        <div class="header-contact-info">
+                            <div class="header-contact">
+                                <p class="phone-number" style="font-size: 16px;">欢迎访问信息网络实验室！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="header-social-icon-list">
+                            <ul>
+                                <li>
+                                    <span id="time"></span>
+                                    <p>
+                                        <script>
+                                            function time_show(){
+                                                var date = new Date();
+                                                var year = date.getFullYear();
+                                                var month = date.getMonth()+1;
+                                                month=month<10?"0"+month:month;
+                                                var day = date.getDate();
+                                                day=day<10?"0"+day:day;
+                                                var result = year+"/"+month+"/"+day+" ";
+                                                document.getElementById("time").innerHTML = result;
+                                                }
+                                            time_show();
+                                            setInterval("time_show()");
+                                        </script>
+                                    </p>
+                                </li>
+                                <li>
+                                    <span id="time1"></span>
+                                    <p>
+                                        <script>
+                                            function week_show(){
+                                                var data1= new Date().getDay();
+                                                var week;
+                                                if(data1==0) week="星期日";
+                                                if(data1==1) week="星期一";
+                                                if(data1==2) week="星期二";
+                                                if(data1==3) week="星期三";
+                                                if(data1==4) week="星期四";
+                                                if(data1==5) week="星期五";
+                                                if(data1==6) week="星期六";
+                                                document.getElementById("time1").innerHTML = week;
+                                            }
+                                            week_show();
+                                            setInterval("week_show()");
+                                        </script>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /end header-top -->
+
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="https://infonetlab2020.github.io/JunLu_Group/index.html">
+                                    <img src="https://infonetlab2020.github.io/JunLu_Group/img/infonet.png" alt="" style="height: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://infonetlab2020.github.io/JunLu_Group/index.html">主页</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://infonetlab2020.github.io/JunLu_Group/all_news.html">研究动态</a>
+                                        </li>
+                                        <li>
+                                            <a>研究方向<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/direction/direction_transmission.html">&bull; 网络架构与传输</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/direction/direction_quantum.html">&bull; 量子网络</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/direction/direction_privacy.html">&bull; 隐私计算</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/direction/direction_blockchain.html">&bull; 区块链技术及应用</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/direction/direction_security.html">&bull; 网络安全防护</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>成员力量<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/team/people_teacher.html">&bull; 师资队伍</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/team/people_doctor.html">&bull; 博士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/team/people_master.html">&bull; 硕士研究生</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/team/people_graduate.html">&bull; 毕业生去向</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>科研情况<span class="fa fa-angle-down"></span></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/research/fundings.html">&bull; 研究项目</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/research/papers.html">&bull; 学术论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/research/books_patents.html">&bull; 专著专利</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/research/dissertation.html">&bull; 学位论文</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://infonetlab2020.github.io/JunLu_Group/research/platform.html">&bull; 系统平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="https://infonetlab2020.github.io/JunLu_Group/rules.html">规章制度</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://infonetlab2020.github.io/JunLu_Group/album.html">相册</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /end header-bottom --> 
+        </div>
+    </header>
+    <!-- header-end -->
+    <hr style="margin-top: -1px;">
+
+   <!-- rules start -->
+   <div class="advisors-area pt-25 pb-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+                <h2 class="primary-color" style="text-align: center; margin-bottom: 40px; font-size: 30px;"><b>实验室在身份认证领域研究成果荣获IEEE ICC最佳论文奖</b></h2>
+                <div class="events-details-form faq-area-form mb-20 p-0">
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-16">
+                                <div class="events-form-title">
+                                    <p>&emsp;&emsp;2025年6月8日至12日，IEEE 通信学会（IEEE Communication Society）旗舰会议2025 IEEE ICC（IEEE International Conference on Communications，国际通信大会）在加拿大蒙特利尔召开。中国科学技术大学网络空间安全学院张烨同学（指导老师为薛开平老师）在该会议上发表的研究论文《User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security》荣获大会最佳论文奖（Best Paper Award）。</p>
+
+                                    <p>&emsp;&emsp;IEEE ICC自1965年创办以来，已发展成为世界通信领域规模最大、最具影响力的学术会议之一，每年吸引约2000名科学家、研究者和工业界人士参会。本次大会共收到约2500篇来自不同国家和地区的投稿论文，最终评选出17篇论文获最佳论文奖，占总投稿论文数的0.68%。</p>
+
+                                    <p style="text-align: center;"><img src="https://infonetlab2020.github.io/JunLu_Group/img/album/2025-06-12/news1.jpg" style="width:65%"></p>
+                                    <p style="text-align: center;">图一：最佳论文奖证书</p> 
+
+                                    <p style="text-align: center;"><img src="https://infonetlab2020.github.io/JunLu_Group/img/album/2025-06-12/news2.jpg" style="width:65%"></p>
+                                    <p style="text-align: center;">图二：张烨同学线上汇报<p>
+
+                                    <p>&emsp;&emsp;论文聚焦于动态风险感知下的用户身份认证机制设计。传统的多因子认证在提升系统安全性的同时，往往显著降低用户体验；而基于风险感知的用户认证被提出用于在安全性与可用性之间寻求更优平衡。区别于以往依赖静态规则进行风险识别的方案，本研究提出的基于用户行为感知的动态身份认证方案，通过多维度信息采集显著提高了身份伪造的攻击难度，并结合概率学习方法对用户行为习惯进行动态建模，实现认证策略自适应更新。该方案在保障系统安全的同时，最大程度地降低了用户认证过程中的感知成本。
+                                    <p>&emsp;&emsp; 该研究不仅在身份认证领域具有显著的理论创新价值，更直接应用于中国科学技术大学统一身份认证系统的建设实践，为全校各类信息系统提供了更安全、用户无感、易用的身份保障机制。2025年5月，中国科学技术大学新版统一身份认证系统凭借先进的架构设计与卓越的用户体验，入选《2025年中国高校数字化优秀案例》，进一步验证了本项成果的技术领先性与广泛的推广潜力。</p>
+                                    <p>&emsp;&emsp; 网络空间安全学院张烨同学为论文的第一作者，王峰老师（网络信息中心）和薛开平老师（网络空间安全学院/网络信息中心）为该论文的通讯作者。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- rules end -->
+
+        <!-- footer start -->
+        <footer id="Contact">
+            <div class="footer-area primary-bg pt-20">
+                <div class="container">
+                    <div class="footer-top">
+                        <p style="text-align: center; margin-bottom: 5px;"><b>地址：</b>安徽省合肥市习友路中国科学技术大学高新校区信智楼C502室，230088</p>
+                        <p style="text-align: center; margin-bottom: 5px;"><b>电话：</b>0551-63601334 &emsp;&emsp;<b>传真： </b>0551-63601334</p>
+                        <p style="text-align: center; margin-bottom: 5px;"><b>E-mail：</b>plhong AT ustc.edu.cn(洪)；  kpxue AT ustc.edu.cn(薛)</p>
+                        <p style="text-align: center; margin-bottom: 5px;">Copyright © 中国科大信息网络实验室 保留所有权利</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/popper.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/bootstrap.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/owl.carousel.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/isotope.pkgd.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/one-page-nav-min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/slick.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/ajax-form.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/wow.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/jquery.meanmenu.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/jquery.scrollUp.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/jquery.barfiller.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/jquery.counterup.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/waypoints.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/plugins.js"></script>
+    <script src="https://infonetlab2020.github.io/JunLu_Group/js/main.js"></script>
+</body>
+
+</html>
